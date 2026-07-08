@@ -1,0 +1,7182 @@
+{
+  "{keyword} near me": {
+    "count": 2,
+    "examples": [
+      "gravel near me",
+      "gravel near me"
+    ],
+    "sources": [
+      "autosuggest",
+      "pytrends_top"
+    ],
+    "source_diversity": 2,
+    "score": 4.0
+  },
+  "{keyword} near me within {num} mi": {
+    "count": 2,
+    "examples": [
+      "gravel near me within 20 mi",
+      "gravel near me within 5 mi"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 4.0
+  },
+  "what's the best tool for shoveling {keyword}?": {
+    "count": 1,
+    "examples": [
+      "What's the best tool for shoveling gravel?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 3.6
+  },
+  "{keyword} in bulk near me": {
+    "count": 1,
+    "examples": [
+      "gravel in bulk near me"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.5
+  },
+  "{keyword} order near me": {
+    "count": 1,
+    "examples": [
+      "gravel order near me"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.5
+  },
+  "{keyword} jobs near me": {
+    "count": 1,
+    "examples": [
+      "gravel jobs near me"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.5
+  },
+  "l {keyword} near me": {
+    "count": 1,
+    "examples": [
+      "l gravel near me"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.5
+  },
+  "pea {keyword} near me": {
+    "count": 1,
+    "examples": [
+      "pea gravel near me"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.5
+  },
+  "b {keyword} near me": {
+    "count": 1,
+    "examples": [
+      "b gravel near me"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.5
+  },
+  "{keyword} bike trails near me": {
+    "count": 1,
+    "examples": [
+      "gravel bike trails near me"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.5
+  },
+  "{keyword} races near me": {
+    "count": 1,
+    "examples": [
+      "gravel races near me"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.5
+  },
+  "{keyword} yard near me": {
+    "count": 1,
+    "examples": [
+      "gravel yard near me"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.5
+  },
+  "{keyword} supply near me": {
+    "count": 1,
+    "examples": [
+      "gravel supply near me"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.5
+  },
+  "{keyword} suppliers near me": {
+    "count": 1,
+    "examples": [
+      "gravel suppliers near me"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.5
+  },
+  "{keyword} on sale near me": {
+    "count": 1,
+    "examples": [
+      "gravel on sale near me"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.5
+  },
+  "{keyword} cost per yard": {
+    "count": 1,
+    "examples": [
+      "gravel cost per yard"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.5
+  },
+  "b {keyword} price per ton": {
+    "count": 1,
+    "examples": [
+      "b gravel price per ton"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.5
+  },
+  "{keyword} near me bulk": {
+    "count": 1,
+    "examples": [
+      "gravel near me bulk"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.5
+  },
+  "{keyword} and rock near me": {
+    "count": 1,
+    "examples": [
+      "gravel and rock near me"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.5
+  },
+  "{keyword} quarry near me": {
+    "count": 1,
+    "examples": [
+      "gravel quarry near me"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.5
+  },
+  "{keyword} for driveway near me": {
+    "count": 1,
+    "examples": [
+      "gravel for driveway near me"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.5
+  },
+  "{keyword} pit near me": {
+    "count": 1,
+    "examples": [
+      "gravel pit near me"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.5
+  },
+  "{keyword} near me for sale": {
+    "count": 1,
+    "examples": [
+      "gravel near me for sale"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.5
+  },
+  "{keyword} trails near me": {
+    "count": 1,
+    "examples": [
+      "gravel trails near me"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.5
+  },
+  "{keyword} quarry near me prices": {
+    "count": 1,
+    "examples": [
+      "gravel quarry near me prices"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.5
+  },
+  "{keyword} quarries near my location": {
+    "count": 1,
+    "examples": [
+      "gravel quarries near my location"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.5
+  },
+  "{keyword} near me open now": {
+    "count": 1,
+    "examples": [
+      "gravel near me open now"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.5
+  },
+  "{keyword} monkey near me": {
+    "count": 1,
+    "examples": [
+      "gravel monkey near me"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.5
+  },
+  "{keyword} driveway repair near me": {
+    "count": 1,
+    "examples": [
+      "gravel driveway repair near me"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.5
+  },
+  "{keyword} installation near me": {
+    "count": 1,
+    "examples": [
+      "gravel installation near me"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.5
+  },
+  "{keyword} company near me": {
+    "count": 1,
+    "examples": [
+      "gravel company near me"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.5
+  },
+  "{keyword} for sale near me": {
+    "count": 1,
+    "examples": [
+      "gravel for sale near me"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.5
+  },
+  "{keyword} hauling near me": {
+    "count": 1,
+    "examples": [
+      "gravel hauling near me"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.5
+  },
+  "a {keyword} near me": {
+    "count": 1,
+    "examples": [
+      "a gravel near me"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.5
+  },
+  "{keyword} rock near me": {
+    "count": 1,
+    "examples": [
+      "gravel rock near me"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.5
+  },
+  "{keyword} prices near me": {
+    "count": 1,
+    "examples": [
+      "gravel prices near me"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.5
+  },
+  "{keyword} and sand near me": {
+    "count": 1,
+    "examples": [
+      "gravel and sand near me"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.5
+  },
+  "{keyword} roads near me": {
+    "count": 1,
+    "examples": [
+      "gravel roads near me"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.5
+  },
+  "{keyword} delivery near me": {
+    "count": 1,
+    "examples": [
+      "gravel delivery near me"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.5
+  },
+  "{keyword} haulers near me": {
+    "count": 1,
+    "examples": [
+      "gravel haulers near me"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.5
+  },
+  "{keyword} near me delivered": {
+    "count": 1,
+    "examples": [
+      "gravel near me delivered"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.5
+  },
+  "b {keyword} price ontario": {
+    "count": 1,
+    "examples": [
+      "b gravel price ontario"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.5
+  },
+  "{keyword} beds near foundation": {
+    "count": 1,
+    "examples": [
+      "Gravel beds near foundation"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 3.5
+  },
+  "o {keyword} toulouse {num}": {
+    "count": 2,
+    "examples": [
+      "o gravel toulouse 2025",
+      "o gravel toulouse 2026"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.0
+  },
+  "b {keyword} type {num}": {
+    "count": 2,
+    "examples": [
+      "b gravel type 1",
+      "b gravel type 2"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.0
+  },
+  "e {keyword} bikes {num}": {
+    "count": 2,
+    "examples": [
+      "e gravel bikes 2025",
+      "e gravel bikes 2026"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 3.0
+  },
+  "what is {keyword}": {
+    "count": 2,
+    "examples": [
+      "what is gravel",
+      "what is gravel"
+    ],
+    "sources": [
+      "autosuggest",
+      "pytrends_top"
+    ],
+    "source_diversity": 2,
+    "score": 3.0
+  },
+  "best {keyword} for parking in my yard": {
+    "count": 1,
+    "examples": [
+      "Best gravel for parking in my yard"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 3.0
+  },
+  "best power equipment to remove compacted {keyword}?": {
+    "count": 1,
+    "examples": [
+      "Best power equipment to remove compacted gravel?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 2.6
+  },
+  "laying a cheap {keyword} car park over soil/grass": {
+    "count": 1,
+    "examples": [
+      "Laying a CHEAP gravel car park over soil/grass"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 2.6
+  },
+  "what is {keyword} racing": {
+    "count": 1,
+    "examples": [
+      "what is gravel racing"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 2.5
+  },
+  "how to {keyword} walkway": {
+    "count": 1,
+    "examples": [
+      "how to gravel walkway"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 2.5
+  },
+  "how to {keyword} vac sand": {
+    "count": 1,
+    "examples": [
+      "how to gravel vac sand"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 2.5
+  },
+  "how to {keyword} path": {
+    "count": 1,
+    "examples": [
+      "how to gravel path"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 2.5
+  },
+  "what is {keyword} made of": {
+    "count": 1,
+    "examples": [
+      "what is gravel made of"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 2.5
+  },
+  "how to {keyword} over grass": {
+    "count": 1,
+    "examples": [
+      "how to gravel over grass"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 2.5
+  },
+  "why does {keyword} want shizuka": {
+    "count": 1,
+    "examples": [
+      "why does gravel want shizuka"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 2.5
+  },
+  "b {keyword} price": {
+    "count": 1,
+    "examples": [
+      "b gravel price"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 2.5
+  },
+  "why does {keyword} help drainage": {
+    "count": 1,
+    "examples": [
+      "why does gravel help drainage"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 2.5
+  },
+  "what is {keyword} used for": {
+    "count": 1,
+    "examples": [
+      "what is gravel used for"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 2.5
+  },
+  "why are {keyword} bikes good": {
+    "count": 1,
+    "examples": [
+      "why are gravel bikes good"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 2.5
+  },
+  "{keyword} driveway cost": {
+    "count": 1,
+    "examples": [
+      "gravel driveway cost"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 2.5
+  },
+  "what is {keyword} biking": {
+    "count": 1,
+    "examples": [
+      "what is gravel biking"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 2.5
+  },
+  "what is {keyword} mulch": {
+    "count": 1,
+    "examples": [
+      "what is gravel mulch"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 2.5
+  },
+  "how to {keyword} a driveway": {
+    "count": 1,
+    "examples": [
+      "how to gravel a driveway"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 2.5
+  },
+  "{keyword} yard price": {
+    "count": 1,
+    "examples": [
+      "gravel yard price"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 2.5
+  },
+  "when to {keyword} driveway": {
+    "count": 1,
+    "examples": [
+      "when to gravel driveway"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 2.5
+  },
+  "when to replace {keyword} tires": {
+    "count": 1,
+    "examples": [
+      "when to replace gravel tires"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 2.5
+  },
+  "what is class v {keyword}": {
+    "count": 1,
+    "examples": [
+      "what is class v gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 2.5
+  },
+  "how to {keyword} backyard": {
+    "count": 1,
+    "examples": [
+      "how to gravel backyard"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 2.5
+  },
+  "how to {keyword} patio": {
+    "count": 1,
+    "examples": [
+      "how to gravel patio"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 2.5
+  },
+  "how to {keyword} a yard": {
+    "count": 1,
+    "examples": [
+      "how to gravel a yard"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 2.5
+  },
+  "what is {keyword} bike racing": {
+    "count": 1,
+    "examples": [
+      "what is gravel bike racing"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 2.5
+  },
+  "why are {keyword} bars flared": {
+    "count": 1,
+    "examples": [
+      "why are gravel bars flared"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 2.5
+  },
+  "what is a {keyword} bike": {
+    "count": 1,
+    "examples": [
+      "what is a gravel bike"
+    ],
+    "sources": [
+      "pytrends_rising"
+    ],
+    "source_diversity": 1,
+    "score": 2.5
+  },
+  "{keyword} prices": {
+    "count": 1,
+    "examples": [
+      "gravel prices"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 2.3
+  },
+  "near {keyword}": {
+    "count": 1,
+    "examples": [
+      "near gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 2.3
+  },
+  "{keyword} nearby": {
+    "count": 1,
+    "examples": [
+      "gravel nearby"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 2.3
+  },
+  "{keyword} near": {
+    "count": 1,
+    "examples": [
+      "gravel near"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 2.3
+  },
+  "{keyword} cost": {
+    "count": 1,
+    "examples": [
+      "gravel cost"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 2.3
+  },
+  "brushing cheap concrete onto a {keyword} driveway (adding strength and resilience)": {
+    "count": 1,
+    "examples": [
+      "brushing CHEAP concrete onto a gravel driveway (adding strength and resilience)"
+    ],
+    "sources": [
+      "yt_titles"
+    ],
+    "source_diversity": 1,
+    "score": 2.3
+  },
+  "how to {keyword} a muddy driveway": {
+    "count": 1,
+    "examples": [
+      "how to gravel a muddy driveway"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 2.0
+  },
+  "what can i put over {keyword}": {
+    "count": 1,
+    "examples": [
+      "what can i put over gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 2.0
+  },
+  "when to replace {keyword} bike tires": {
+    "count": 1,
+    "examples": [
+      "when to replace gravel bike tires"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 2.0
+  },
+  "why are {keyword} bikes so expensive": {
+    "count": 1,
+    "examples": [
+      "why are gravel bikes so expensive"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 2.0
+  },
+  "what is {keyword} used for in minecraft": {
+    "count": 1,
+    "examples": [
+      "what is gravel used for in minecraft"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 2.0
+  },
+  "{keyword} stone seal": {
+    "count": 2,
+    "examples": [
+      "gravel stone seal",
+      "gravel stone seal"
+    ],
+    "sources": [
+      "autosuggest",
+      "pytrends_rising"
+    ],
+    "source_diversity": 2,
+    "score": 2.0
+  },
+  "what is {keyword} racing in cycling": {
+    "count": 1,
+    "examples": [
+      "what is gravel racing in cycling"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 2.0
+  },
+  "why does {keyword} spawn in the nether": {
+    "count": 1,
+    "examples": [
+      "why does gravel spawn in the nether"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 2.0
+  },
+  "when to put {keyword} under concrete": {
+    "count": 1,
+    "examples": [
+      "when to put gravel under concrete"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 2.0
+  },
+  "how to lay {keyword} on graded underlayment?": {
+    "count": 1,
+    "examples": [
+      "How to lay gravel on graded underlayment?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 2.0
+  },
+  "how can i dispose of {keyword}?": {
+    "count": 1,
+    "examples": [
+      "How can I dispose of gravel?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 2.0
+  },
+  "how to lay {keyword} over grass": {
+    "count": 1,
+    "examples": [
+      "How to lay gravel over grass"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 2.0
+  },
+  "how much slower is a {keyword} bike?": {
+    "count": 1,
+    "examples": [
+      "How Much Slower Is A Gravel Bike?"
+    ],
+    "sources": [
+      "yt_titles"
+    ],
+    "source_diversity": 1,
+    "score": 2.0
+  },
+  "{keyword} calculator": {
+    "count": 2,
+    "examples": [
+      "gravel calculator",
+      "gravel calculator"
+    ],
+    "sources": [
+      "autosuggest",
+      "pytrends_top"
+    ],
+    "source_diversity": 2,
+    "score": 1.7999999999999998
+  },
+  "what are some tips for tamping {keyword}?": {
+    "count": 1,
+    "examples": [
+      "What are some tips for tamping gravel?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.6
+  },
+  "how much {keyword} to remove to plant grass?": {
+    "count": 1,
+    "examples": [
+      "How much gravel to remove to plant grass?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.6
+  },
+  "why are cottontail rabbits smelling through {keyword} piles?": {
+    "count": 1,
+    "examples": [
+      "Why are cottontail rabbits smelling through gravel piles?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.6
+  },
+  "how to sow flowers in a {keyword} strip?": {
+    "count": 1,
+    "examples": [
+      "How to sow flowers in a gravel strip?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.6
+  },
+  "what i wish i knew before i bought a {keyword} bike": {
+    "count": 2,
+    "examples": [
+      "What I Wish I Knew Before I Bought A Gravel Bike",
+      "What I Wish I Knew Before I Bought a Gravel Bike"
+    ],
+    "sources": [
+      "yt_titles"
+    ],
+    "source_diversity": 1,
+    "score": 1.6
+  },
+  "under {keyword} filter system": {
+    "count": 1,
+    "examples": [
+      "under gravel filter system"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} quarries in my area": {
+    "count": 1,
+    "examples": [
+      "gravel quarries in my area"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "rrats y {keyword} sandals": {
+    "count": 1,
+    "examples": [
+      "rrats y gravel sandals"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} jersey with bladder": {
+    "count": 1,
+    "examples": [
+      "gravel jersey with bladder"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "b {keyword} vs a {keyword}": {
+    "count": 1,
+    "examples": [
+      "b gravel vs a gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} bikes for sale": {
+    "count": 1,
+    "examples": [
+      "gravel bikes for sale"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} vacuum for aquarium": {
+    "count": 1,
+    "examples": [
+      "gravel vacuum for aquarium"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "d {keyword} and sons hatfield": {
+    "count": 1,
+    "examples": [
+      "d gravel and sons hatfield"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} with concrete mix": {
+    "count": 1,
+    "examples": [
+      "gravel with concrete mix"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} foundation for shed": {
+    "count": 1,
+    "examples": [
+      "gravel foundation for shed"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} without weed barrier": {
+    "count": 1,
+    "examples": [
+      "gravel without weed barrier"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} yards per ton": {
+    "count": 1,
+    "examples": [
+      "gravel yards per ton"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "e {keyword} bikes for sale": {
+    "count": 1,
+    "examples": [
+      "e gravel bikes for sale"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} path without edging": {
+    "count": 1,
+    "examples": [
+      "gravel path without edging"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "pouring concrete over {keyword}": {
+    "count": 1,
+    "examples": [
+      "pouring concrete over gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} v united states {num}": {
+    "count": 1,
+    "examples": [
+      "gravel v united states 1972"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} and grace arthur hayes": {
+    "count": 1,
+    "examples": [
+      "gravel and grace arthur hayes"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} fire pit area": {
+    "count": 1,
+    "examples": [
+      "gravel fire pit area"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "pea {keyword} over concrete": {
+    "count": 1,
+    "examples": [
+      "pea gravel over concrete"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "difference between {keyword} and stone": {
+    "count": 1,
+    "examples": [
+      "difference between gravel and stone"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "fara f {keyword} review": {
+    "count": 1,
+    "examples": [
+      "fara f gravel review"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} under concrete slab": {
+    "count": 1,
+    "examples": [
+      "gravel under concrete slab"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "d {keyword} and sons epworth": {
+    "count": 1,
+    "examples": [
+      "d gravel and sons epworth"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} weight per yard": {
+    "count": 1,
+    "examples": [
+      "gravel weight per yard"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} over concrete driveway": {
+    "count": 1,
+    "examples": [
+      "gravel over concrete driveway"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} quarry for sale": {
+    "count": 1,
+    "examples": [
+      "gravel quarry for sale"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "u haul {keyword} trailer": {
+    "count": 1,
+    "examples": [
+      "u haul gravel trailer"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "a {keyword} vs b {keyword}": {
+    "count": 1,
+    "examples": [
+      "a gravel vs b gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "d {keyword} and sons": {
+    "count": 1,
+    "examples": [
+      "d gravel and sons"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "o {keyword} occitanie {num}": {
+    "count": 1,
+    "examples": [
+      "o gravel occitanie 600"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "floating deck over {keyword}": {
+    "count": 1,
+    "examples": [
+      "floating deck over gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} v united states": {
+    "count": 1,
+    "examples": [
+      "gravel v united states"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "under {keyword} cave aquarium": {
+    "count": 1,
+    "examples": [
+      "under gravel cave aquarium"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} tires for road bike": {
+    "count": 1,
+    "examples": [
+      "gravel tires for road bike"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "e {keyword} bike reviews": {
+    "count": 1,
+    "examples": [
+      "e gravel bike reviews"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} at home depot": {
+    "count": 1,
+    "examples": [
+      "gravel at home depot"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} weight per cubic foot": {
+    "count": 1,
+    "examples": [
+      "gravel weight per cubic foot"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} glue for driveway": {
+    "count": 1,
+    "examples": [
+      "gravel glue for driveway"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} v hybrid bike": {
+    "count": 1,
+    "examples": [
+      "gravel v hybrid bike"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} without landscape fabric": {
+    "count": 1,
+    "examples": [
+      "gravel without landscape fabric"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} xbox series x": {
+    "count": 1,
+    "examples": [
+      "gravel xbox series x"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "o {keyword} toulouse grand tour": {
+    "count": 1,
+    "examples": [
+      "o gravel toulouse grand tour"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} bike vs road bike": {
+    "count": 1,
+    "examples": [
+      "gravel bike vs road bike"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "e {keyword} bike flat bar": {
+    "count": 1,
+    "examples": [
+      "e gravel bike flat bar"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "x {keyword} {num} ican": {
+    "count": 1,
+    "examples": [
+      "x gravel 2 ican"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} t shirt with pockets": {
+    "count": 1,
+    "examples": [
+      "gravel t shirt with pockets"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} over asphalt driveway": {
+    "count": 1,
+    "examples": [
+      "gravel over asphalt driveway"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "pea {keyword} home depot": {
+    "count": 1,
+    "examples": [
+      "pea gravel home depot"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} rides santa barbara": {
+    "count": 1,
+    "examples": [
+      "gravel rides santa barbara"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} over grass for parking": {
+    "count": 1,
+    "examples": [
+      "gravel over grass for parking"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} g {num} {num}": {
+    "count": 1,
+    "examples": [
+      "gravel g 3 4"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "pea {keyword} santa barbara": {
+    "count": 1,
+    "examples": [
+      "pea gravel santa barbara"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} over fluval stratum": {
+    "count": 1,
+    "examples": [
+      "gravel over fluval stratum"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "how to {keyword}": {
+    "count": 1,
+    "examples": [
+      "how to gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} under fence line": {
+    "count": 1,
+    "examples": [
+      "gravel under fence line"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} v mountain bike": {
+    "count": 1,
+    "examples": [
+      "gravel v mountain bike"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} t shirt men": {
+    "count": 1,
+    "examples": [
+      "gravel t shirt men"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} y level minecraft": {
+    "count": 1,
+    "examples": [
+      "gravel y level minecraft"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} over weed barrier": {
+    "count": 1,
+    "examples": [
+      "gravel over weed barrier"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} pit park fireworks": {
+    "count": 1,
+    "examples": [
+      "gravel pit park fireworks"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} yard to ton conversion": {
+    "count": 1,
+    "examples": [
+      "gravel yard to ton conversion"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} for french drain": {
+    "count": 1,
+    "examples": [
+      "gravel for french drain"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "k {keyword} texture clay": {
+    "count": 1,
+    "examples": [
+      "k gravel texture clay"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "i {keyword} at your feet": {
+    "count": 1,
+    "examples": [
+      "i gravel at your feet"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} yards to tons": {
+    "count": 1,
+    "examples": [
+      "gravel yards to tons"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} d & sons doncaster": {
+    "count": 1,
+    "examples": [
+      "gravel d & sons doncaster"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} or road bike": {
+    "count": 1,
+    "examples": [
+      "gravel or road bike"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} instead of mulch": {
+    "count": 1,
+    "examples": [
+      "gravel instead of mulch"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} jersey with pockets": {
+    "count": 1,
+    "examples": [
+      "gravel jersey with pockets"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} g one rs": {
+    "count": 1,
+    "examples": [
+      "gravel g one rs"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} with suspension fork": {
+    "count": 1,
+    "examples": [
+      "gravel with suspension fork"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "i love {keyword} racing series": {
+    "count": 1,
+    "examples": [
+      "i love gravel racing series"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "e {keyword} bike with suspension": {
+    "count": 1,
+    "examples": [
+      "e gravel bike with suspension"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} over old asphalt driveway": {
+    "count": 1,
+    "examples": [
+      "gravel over old asphalt driveway"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} under raised garden bed": {
+    "count": 1,
+    "examples": [
+      "gravel under raised garden bed"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "circle k {keyword} ridge": {
+    "count": 1,
+    "examples": [
+      "circle k gravel ridge"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "x {keyword} {num} bike": {
+    "count": 1,
+    "examples": [
+      "x gravel 2 bike"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "laying {keyword} over grass": {
+    "count": 1,
+    "examples": [
+      "laying gravel over grass"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} grid for driveway": {
+    "count": 1,
+    "examples": [
+      "gravel grid for driveway"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} v cyclocross bike": {
+    "count": 1,
+    "examples": [
+      "gravel v cyclocross bike"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} bike vs mountain bike": {
+    "count": 1,
+    "examples": [
+      "gravel bike vs mountain bike"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} vs crushed stone": {
+    "count": 1,
+    "examples": [
+      "gravel vs crushed stone"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} under deck ideas": {
+    "count": 1,
+    "examples": [
+      "gravel under deck ideas"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "over the hill {keyword} grinder": {
+    "count": 1,
+    "examples": [
+      "over the hill gravel grinder"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "e {keyword} bike reddit": {
+    "count": 1,
+    "examples": [
+      "e gravel bike reddit"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} vs hybrid bike": {
+    "count": 1,
+    "examples": [
+      "gravel vs hybrid bike"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} t shirt color": {
+    "count": 1,
+    "examples": [
+      "gravel t shirt color"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} or sand for betta": {
+    "count": 1,
+    "examples": [
+      "gravel or sand for betta"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} over septic tank": {
+    "count": 1,
+    "examples": [
+      "gravel over septic tank"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} and grace music": {
+    "count": 1,
+    "examples": [
+      "gravel and grace music"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} vs road bike": {
+    "count": 1,
+    "examples": [
+      "gravel vs road bike"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} over concrete patio": {
+    "count": 1,
+    "examples": [
+      "gravel over concrete patio"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} and grace ai": {
+    "count": 1,
+    "examples": [
+      "gravel and grace ai"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "f moser {keyword} bike": {
+    "count": 1,
+    "examples": [
+      "f moser gravel bike"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} vs mountain bike": {
+    "count": 1,
+    "examples": [
+      "gravel vs mountain bike"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "o {keyword} grand tour": {
+    "count": 1,
+    "examples": [
+      "o gravel grand tour"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} hit the stand": {
+    "count": 1,
+    "examples": [
+      "gravel hit the stand"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} with stepping stones": {
+    "count": 1,
+    "examples": [
+      "gravel with stepping stones"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "j guillem {keyword} bike": {
+    "count": 1,
+    "examples": [
+      "j guillem gravel bike"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "b&q {keyword} bulk bag": {
+    "count": 1,
+    "examples": [
+      "b&q gravel bulk bag"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} for fish tank": {
+    "count": 1,
+    "examples": [
+      "gravel for fish tank"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} v road bike": {
+    "count": 1,
+    "examples": [
+      "gravel v road bike"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} with glue driveway": {
+    "count": 1,
+    "examples": [
+      "gravel with glue driveway"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "under {keyword} aquarium filter": {
+    "count": 1,
+    "examples": [
+      "under gravel aquarium filter"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "fara f {keyword} bike": {
+    "count": 1,
+    "examples": [
+      "fara f gravel bike"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} and grace songs": {
+    "count": 1,
+    "examples": [
+      "gravel and grace songs"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "under {keyword} weed barrier": {
+    "count": 1,
+    "examples": [
+      "under gravel weed barrier"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "pea {keyword} by the yard": {
+    "count": 1,
+    "examples": [
+      "pea gravel by the yard"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} under concrete stairs": {
+    "count": 1,
+    "examples": [
+      "Gravel under concrete stairs"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "compacting {keyword} on wet ground": {
+    "count": 1,
+    "examples": [
+      "Compacting gravel on wet ground"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "rat turda in {keyword}": {
+    "count": 1,
+    "examples": [
+      "Rat turda in gravel"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "stop {keyword} from washing away": {
+    "count": 1,
+    "examples": [
+      "Stop Gravel from Washing Away"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "elimination weed in {keyword}": {
+    "count": 1,
+    "examples": [
+      "Elimination Weed in gravel"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "using quikrete {keyword} for landscape?": {
+    "count": 1,
+    "examples": [
+      "Using Quikrete gravel for landscape?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} under solid drain pipe?": {
+    "count": 1,
+    "examples": [
+      "Gravel under solid drain pipe?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "renewing a {keyword} driveway": {
+    "count": 1,
+    "examples": [
+      "Renewing a gravel driveway"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "dt swiss {keyword} ln": {
+    "count": 1,
+    "examples": [
+      "dt swiss gravel ln"
+    ],
+    "sources": [
+      "pytrends_rising"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "pirelli cinturato {keyword} m": {
+    "count": 1,
+    "examples": [
+      "pirelli cinturato gravel m"
+    ],
+    "sources": [
+      "pytrends_rising"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "seven seas {keyword} select": {
+    "count": 1,
+    "examples": [
+      "seven seas gravel select"
+    ],
+    "sources": [
+      "pytrends_rising"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "pirelli cinturato {keyword} h": {
+    "count": 1,
+    "examples": [
+      "pirelli cinturato gravel h"
+    ],
+    "sources": [
+      "pytrends_rising"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "scott addict {keyword} {num}": {
+    "count": 1,
+    "examples": [
+      "scott addict gravel 30"
+    ],
+    "sources": [
+      "pytrends_rising"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "{keyword} mania / gabriel wibmer": {
+    "count": 1,
+    "examples": [
+      "GRAVEL MANIA / Gabriel Wibmer"
+    ],
+    "sources": [
+      "yt_titles"
+    ],
+    "source_diversity": 1,
+    "score": 1.5
+  },
+  "why is this construction site pouring {keyword} over a wire mesh, and then covering it with dirt?": {
+    "count": 1,
+    "examples": [
+      "Why is this construction site pouring gravel over a wire mesh, and then covering it with dirt?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.3
+  },
+  "how can i keep {keyword} from moving out of my driveway during winter?": {
+    "count": 1,
+    "examples": [
+      "How can I keep gravel from moving out of my driveway during winter?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.3
+  },
+  "why do many landscapers put {keyword} around the base of buildings?": {
+    "count": 1,
+    "examples": [
+      "Why do many landscapers put gravel around the base of buildings?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.3
+  },
+  "what mechanical design will shake a {keyword} screen box back and forth not up and down": {
+    "count": 1,
+    "examples": [
+      "What mechanical design will shake a gravel screen box back and forth not up and down"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.3
+  },
+  "why would cottontail rabbits be hanging out in a {keyword} parking lot?": {
+    "count": 1,
+    "examples": [
+      "Why would cottontail rabbits be hanging out in a gravel parking lot?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.3
+  },
+  "how to picking broken glass out of {keyword}, in the rain": {
+    "count": 1,
+    "examples": [
+      "How to picking broken glass out of gravel, in the rain"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.3
+  },
+  "how can i drive a tent peg into {keyword}?": {
+    "count": 1,
+    "examples": [
+      "How can I drive a tent peg into gravel?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.3
+  },
+  "what is the difference between \"crushed stone\" and \"crushed {keyword}\" aggregate?": {
+    "count": 1,
+    "examples": [
+      "What is the difference between \"Crushed Stone\" and \"Crushed Gravel\" aggregate?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.3
+  },
+  "what are some alternatives to under {keyword} filters for a {num} gallon pond?": {
+    "count": 1,
+    "examples": [
+      "What are some alternatives to under gravel filters for a 3000 gallon pond?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.3
+  },
+  "how can i turn my {keyword} driveway into a green driveway?": {
+    "count": 1,
+    "examples": [
+      "How can I turn my gravel driveway into a green driveway?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.3
+  },
+  "what chemicals does copper slag release into the soil or water table when it is recycled as a {keyword}?": {
+    "count": 1,
+    "examples": [
+      "What chemicals does copper slag release into the soil or water table when it is recycled as a gravel?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.3
+  },
+  "how can i get weed seeds out of a {keyword} bed?": {
+    "count": 1,
+    "examples": [
+      "How can I get weed seeds out of a gravel bed?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.3
+  },
+  "how do i flatten my soil to apply {keyword}?": {
+    "count": 1,
+    "examples": [
+      "How do I flatten my soil to apply gravel?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.3
+  },
+  "drilling holes in ground and filling with {keyword} - to what ends?": {
+    "count": 1,
+    "examples": [
+      "Drilling holes in ground and filling with gravel - to what ends?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.3
+  },
+  "what are these rocks/{keyword} lookalikes in my front yard soil?": {
+    "count": 1,
+    "examples": [
+      "What are these rocks/gravel lookalikes in my front yard soil?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.3
+  },
+  "curious on how to find excavation forces needed to dig up {keyword}": {
+    "count": 1,
+    "examples": [
+      "Curious on how to find excavation forces needed to dig up gravel"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.3
+  },
+  "jesus christ. i am still riding a '{num} specialized m2 comp stump jumper. that bike has taken me everywhere in all conditions. new young riders over complicate the living shit out of riding, and in my opinion have ruined it. i've been on rides recently with these younger {keyword} nerds and they have bikes covered in gadgets and bull shit. strip it down, ride light and fast, enjoy yourself and  fuck the data. i'm a data analyst by trade and when i ride, the last thing i want is to worry about numbers  and stare a little fucking screen. i rode all over colorado before gps. read a map and learn how to navigate. if you need a video like this to figure out bikes, you're not riding enough.": {
+    "count": 1,
+    "examples": [
+      "Jesus Christ. I am still riding a '96 Specialized M2 Comp Stump Jumper. That bike has taken me everywhere in all conditions. New young riders over complicate the living shit out of riding, and in my opinion have ruined it. I've been on rides recently with these younger gravel nerds and they have bikes covered in gadgets and bull shit. Strip it down, ride light and fast, enjoy yourself and  fuck the data. I'm a data analyst by trade and when I ride, the last thing I want is to worry about numbers  and stare a little fucking screen. I rode ALL over Colorado before GPS. Read a map and learn how to navigate. If you need a video like this to figure out bikes, you're not riding enough."
+    ],
+    "sources": [
+      "yt comments"
+    ],
+    "source_diversity": 1,
+    "score": 1.3
+  },
+  "buying first {keyword} bike, coming from road bike.\n\n{num}. carbon frame with mechanical set\n{num}. aluminum frame with electronic set\n\nwhat should i prioritize?": {
+    "count": 1,
+    "examples": [
+      "buying first gravel bike, coming from road bike.\n\n1. Carbon frame with mechanical set\n2. Aluminum frame with electronic set\n\nwhat should i prioritize?"
+    ],
+    "sources": [
+      "yt comments"
+    ],
+    "source_diversity": 1,
+    "score": 1.3
+  },
+  "i almost bought a {keyword} bike but then i remembered how slow they are": {
+    "count": 1,
+    "examples": [
+      "I almost bought a gravel bike but then i remembered how slow they are"
+    ],
+    "sources": [
+      "yt comments"
+    ],
+    "source_diversity": 1,
+    "score": 1.3
+  },
+  "i\u2019m not surprised by the results! my pinarello {keyword} bike keeps up effortlessly with the group on road rides. it's super quick and agile. while it\u2019s not quite the same ride as my bianchi road bike, it\u2019s fun, fast, and comfortable. i love taking my pinarello on unknown roads. you never know when the pavement might turn to {keyword} or dirt!\n\ncomparing two of my {keyword} bikes, i do notice a speed difference with my basso on the road, but switching tire brands, it really helped bring that up. plus, the basso has a different setup as a 1x13, making it a distinct bike altogether. while it may not match the pinarello\u2019s speed, i really enjoy how my basso performs overall on any surface!\n\nthanks for the awesome video. it addressed my thought on this topic. now let\u2019s get out on our bikes and enjoy the weather while we can!": {
+    "count": 1,
+    "examples": [
+      "I\u2019m not surprised by the results! My Pinarello gravel bike keeps up effortlessly with the group on road rides. It's super quick and agile. While it\u2019s not quite the same ride as my Bianchi road bike, it\u2019s fun, fast, and comfortable. I love taking my Pinarello on unknown roads. You never know when the pavement might turn to gravel or dirt!\n\nComparing two of my gravel bikes, I do notice a speed difference with my Basso on the road, but switching tire brands, it really helped bring that up. Plus, the Basso has a different setup as a 1x13, making it a distinct bike altogether. While it may not match the Pinarello\u2019s speed, I really enjoy how my Basso performs overall on any surface!\n\nThanks for the awesome video. It addressed my thought on this topic. Now let\u2019s get out on our bikes and enjoy the weather while we can!"
+    ],
+    "sources": [
+      "yt comments"
+    ],
+    "source_diversity": 1,
+    "score": 1.3
+  },
+  "i'm leaning towards {keyword} because i am looking for comfort and versatility in a single bike.  i understand the differences between these two for an experienced roadie, but how about endurance geo versus more race-y geo?  si is likely more flexible than the majority of us, so being in a more aero position longer probably doesn't detract from his experience on a given ride -- whereas for many of us normal folk, it may.": {
+    "count": 1,
+    "examples": [
+      "I'm leaning towards gravel because I am looking for comfort and versatility in a single bike.  I understand the differences between these two for an experienced roadie, but how about endurance geo versus more race-y geo?  Si is likely more flexible than the majority of us, so being in a more aero position longer probably doesn't detract from his experience on a given ride -- whereas for many of us normal folk, it may."
+    ],
+    "sources": [
+      "yt comments"
+    ],
+    "source_diversity": 1,
+    "score": 1.3
+  },
+  "i am today what people call a {keyword} biker. i started out calling myself a mountain biker but realized that i just like to cover ground, whether on road or trail. i did {num} miles this morning, mostly on country roads with lots of climbs. i have {num} cannondale cad3 frame build. i love it. i love having lockable from suspension (headshock). it\u2019s there when i want it and gone when i don\u2019t. i run a {num}\u201d tire with center bead (for lower role resistance) with aggressive sides for trail grip. i run them at {num} pounds. i don\u2019t get why \u201c{keyword} bikers resist mild front suspension. the 90s headshock is mild by today\u2019s standard for mountain bikes but perfect for taking the edge off and improving control on mild single track, two track and {keyword}  i can\u2019t imagine riding without it. i like my wrists. i\u2019m {num} and still a pretty fast rider. my bike is what i consider today an expedition machine. i take journeys, not rides. i like my bike to be able to excell in to what ever the journey delivers. that means, my bike is a compromise, and that is ok. i bought that frame in {num} and will stick with it. it fits me. you just upgrade parts when you find something that makes sense.": {
+    "count": 1,
+    "examples": [
+      "I am today what people call a gravel biker. I started out calling myself a mountain biker but realized that I just like to cover ground, whether on road or trail. I did 15 miles this morning, mostly on country roads with lots of climbs. I have 1995 Cannondale Cad3 frame build. I love it. I love having lockable from suspension (Headshock). It\u2019s there when I want it and gone when I don\u2019t. I run a 2\u201d tire with center bead (for lower role resistance) with aggressive sides for trail grip. I run them at 50 pounds. I don\u2019t get why \u201cgravel bikers resist mild front suspension. The 90s headshock is mild by today\u2019s standard for mountain bikes but perfect for taking the edge off and improving control on mild single track, two track and gravel  I can\u2019t imagine riding without it. I like my wrists. I\u2019m 60 and still a pretty fast rider. My bike is what I consider today an expedition machine. I take journeys, not rides. I like my bike to be able to excell in to what ever the journey delivers. That means, my bike is a compromise, and that is ok. I bought that frame in 1995 and will stick with it. It fits me. You just upgrade parts when you find something that makes sense."
+    ],
+    "sources": [
+      "yt comments"
+    ],
+    "source_diversity": 1,
+    "score": 1.3
+  },
+  "nice interview. what brands will be the first to have 32inch {keyword}?": {
+    "count": 1,
+    "examples": [
+      "Nice interview. What brands will be the first to have 32inch gravel?"
+    ],
+    "sources": [
+      "yt comments"
+    ],
+    "source_diversity": 1,
+    "score": 1.3
+  },
+  "yes, it's noticeable and can be important. i'm no racer and my {keyword} bike geometry is closer to a road geometry than some mega-adventure {keyword} bikes, but they do feel different - as you say, particularly out of the saddle.\nhowever the {num} wheelsets is a great idea if you're going away for a cycling holiday and want to do road and {keyword} rides.\nyou don't address gearing; 1x gearing would surely be a real disadvantage when riding a {keyword} bike as a road bike - you'd either spin out, or have big enough gaps in your gears to make an unpleasant difference.": {
+    "count": 1,
+    "examples": [
+      "Yes, it's noticeable and can be important. I'm no racer and my gravel bike geometry is closer to a road geometry than some mega-adventure gravel bikes, BUT they do feel different - as you say, particularly out of the saddle.\nHowever the 2 wheelsets is a great idea if you're going away for a cycling holiday and want to do road and gravel rides.\nYou don't address gearing; 1x gearing would surely be a real disadvantage when riding a gravel bike as a road bike - you'd either spin out, or have big enough gaps in your gears to make an unpleasant difference."
+    ],
+    "sources": [
+      "yt comments"
+    ],
+    "source_diversity": 1,
+    "score": 1.3
+  },
+  "hmm i like riding my {keyword} bike. i prefer to call it all road because it\u2019s a mixture at least here in my area of {keyword}, forest trails but also a lot of roads in between. i wonder why everyone is seeking to use big to huge tires. i love riding on {num} or 38mm as this is a good compromise when riding roads. am i wrong with it? shall i switch to {num} or even 50mm only for the comfort during {keyword} or trails? when i calculate how much off-road i have in comparison to road it\u2019s about {num} percent - sometimes less. but riding a roadbike wouldn\u2019t be an option as there are too many tracks which require a {keyword} bike.\nit seems like nobody talks about this situation. am i alone with it? am i too dumb to plan my tours either for road cycling or {keyword} only?": {
+    "count": 1,
+    "examples": [
+      "Hmm I like riding my Gravel Bike. I prefer to call it all road because it\u2019s a mixture at least here in my area of gravel, forest trails but also a lot of roads in between. I wonder why everyone is seeking to use big to huge tires. I love riding on 35 or 38mm as this is a good compromise when riding roads. Am I wrong with it? Shall I switch to 45 or even 50mm only for the comfort during gravel or trails? When I calculate how much off-road I have in comparison to road it\u2019s about 50 percent - sometimes less. But riding a roadbike wouldn\u2019t be an option as there are too many tracks which require a gravel bike.\nIt seems like nobody talks about this situation. Am I alone with it? Am I too dumb to plan my tours either for road cycling or gravel only?"
+    ],
+    "sources": [
+      "yt comments"
+    ],
+    "source_diversity": 1,
+    "score": 1.3
+  },
+  "over the years i noticed how important wheels are. as a heavier rider, i hope to get a good {keyword} soon and help myself with the maximum system weight limit by investing in a good wheel set": {
+    "count": 1,
+    "examples": [
+      "Over the years I noticed how important wheels are. As a heavier rider, I hope to get a good gravel soon and help myself with the maximum system weight limit by investing in a good wheel set"
+    ],
+    "sources": [
+      "yt comments"
+    ],
+    "source_diversity": 1,
+    "score": 1.3
+  },
+  "{keyword} meaning": {
+    "count": 2,
+    "examples": [
+      "gravel meaning",
+      "gravel meaning"
+    ],
+    "sources": [
+      "autosuggest",
+      "pytrends_top"
+    ],
+    "source_diversity": 2,
+    "score": 1.2
+  },
+  "{keyword} stone": {
+    "count": 2,
+    "examples": [
+      "gravel stone",
+      "gravel stone"
+    ],
+    "sources": [
+      "autosuggest",
+      "pytrends_top"
+    ],
+    "source_diversity": 2,
+    "score": 1.2
+  },
+  "{keyword} road": {
+    "count": 2,
+    "examples": [
+      "gravel road",
+      "gravel road"
+    ],
+    "sources": [
+      "autosuggest",
+      "pytrends_top"
+    ],
+    "source_diversity": 2,
+    "score": 1.2
+  },
+  "{keyword} pit": {
+    "count": 2,
+    "examples": [
+      "gravel pit",
+      "gravel pit"
+    ],
+    "sources": [
+      "autosuggest",
+      "pytrends_top"
+    ],
+    "source_diversity": 2,
+    "score": 1.2
+  },
+  "{keyword} ebike": {
+    "count": 2,
+    "examples": [
+      "gravel ebike",
+      "gravel ebike"
+    ],
+    "sources": [
+      "autosuggest",
+      "pytrends_rising"
+    ],
+    "source_diversity": 2,
+    "score": 1.2
+  },
+  "pea {keyword}": {
+    "count": 2,
+    "examples": [
+      "pea gravel",
+      "pea gravel"
+    ],
+    "sources": [
+      "autosuggest",
+      "pytrends_top"
+    ],
+    "source_diversity": 2,
+    "score": 1.2
+  },
+  "{keyword} bikes": {
+    "count": 2,
+    "examples": [
+      "gravel bikes",
+      "gravel bikes"
+    ],
+    "sources": [
+      "autosuggest",
+      "pytrends_top"
+    ],
+    "source_diversity": 2,
+    "score": 1.2
+  },
+  "cube {keyword}": {
+    "count": 2,
+    "examples": [
+      "cube gravel",
+      "cube gravel"
+    ],
+    "sources": [
+      "pytrends_top",
+      "pytrends_rising"
+    ],
+    "source_diversity": 2,
+    "score": 1.2
+  },
+  "under {keyword} filter for turtle tank": {
+    "count": 1,
+    "examples": [
+      "under gravel filter for turtle tank"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.0
+  },
+  "pumba i {keyword} at your feet": {
+    "count": 1,
+    "examples": [
+      "pumba i gravel at your feet"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.0
+  },
+  "e {keyword} bike with front suspension": {
+    "count": 1,
+    "examples": [
+      "e gravel bike with front suspension"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.0
+  },
+  "i {keyword} at your feet gif": {
+    "count": 1,
+    "examples": [
+      "i gravel at your feet gif"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.0
+  },
+  "under {keyword} filter for {num} gallon tank": {
+    "count": 1,
+    "examples": [
+      "under gravel filter for 75 gallon tank"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.0
+  },
+  "o {keyword} {num}": {
+    "count": 2,
+    "examples": [
+      "o gravel 600",
+      "o gravel 2026"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.0
+  },
+  "i need {keyword} for my driveway": {
+    "count": 1,
+    "examples": [
+      "i need gravel for my driveway"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.0
+  },
+  "under {keyword} filter for fish tank": {
+    "count": 1,
+    "examples": [
+      "under gravel filter for fish tank"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.0
+  },
+  "c & j {keyword} products inc": {
+    "count": 1,
+    "examples": [
+      "c & j gravel products inc"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.0
+  },
+  "{keyword} or sand for fish tank": {
+    "count": 1,
+    "examples": [
+      "gravel or sand for fish tank"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.0
+  },
+  "{keyword} and grace all to jesus": {
+    "count": 1,
+    "examples": [
+      "gravel and grace all to jesus"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 1.0
+  },
+  "power equipment for removing compacted {keyword}?": {
+    "count": 1,
+    "examples": [
+      "Power equipment for removing compacted gravel?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.0
+  },
+  "proper way to lay {keyword} around garage": {
+    "count": 1,
+    "examples": [
+      "Proper way to lay gravel around garage"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.0
+  },
+  "shed base: keeping perimeter {keyword} in place": {
+    "count": 1,
+    "examples": [
+      "Shed base: Keeping perimeter gravel in place"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.0
+  },
+  "drainage problems and solutions for {keyword} driveway?": {
+    "count": 1,
+    "examples": [
+      "Drainage problems and solutions for gravel Driveway?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.0
+  },
+  "i have erosion issues wirth {keyword} road": {
+    "count": 1,
+    "examples": [
+      "I have erosion issues wirth gravel road"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.0
+  },
+  "suv's = we live on {keyword}": {
+    "count": 1,
+    "examples": [
+      "SUV's = we live on gravel"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.0
+  },
+  "{keyword} under concrete in second floor bathroom": {
+    "count": 1,
+    "examples": [
+      "Gravel under concrete in Second Floor Bathroom"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.0
+  },
+  "compacting {keyword} on top of landscape fabric": {
+    "count": 1,
+    "examples": [
+      "Compacting gravel on top of landscape fabric"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.0
+  },
+  "can mulch/{keyword} protect soil against cockchafer?": {
+    "count": 1,
+    "examples": [
+      "Can mulch/gravel protect soil against cockchafer?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.0
+  },
+  "dealing with overgrown {keyword} and weed membrane": {
+    "count": 1,
+    "examples": [
+      "Dealing with overgrown gravel and weed membrane"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.0
+  },
+  "2a modified crushed stone vs minus {keyword}": {
+    "count": 1,
+    "examples": [
+      "2a modified crushed stone vs minus gravel"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.0
+  },
+  "sand and {keyword} appearing in garden": {
+    "count": 1,
+    "examples": [
+      "Sand and gravel appearing in garden"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.0
+  },
+  "electric {keyword} sifter for home use": {
+    "count": 1,
+    "examples": [
+      "Electric gravel sifter for home use"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.0
+  },
+  "re-leveling a 12x16 shed on {keyword}": {
+    "count": 1,
+    "examples": [
+      "Re-leveling a 12x16 shed on gravel"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.0
+  },
+  "easily unload {keyword} from pickup truck": {
+    "count": 1,
+    "examples": [
+      "Easily unload gravel from pickup truck"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.0
+  },
+  "setting fence post in {keyword}/backfill?": {
+    "count": 1,
+    "examples": [
+      "Setting fence post in gravel/backfill?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.0
+  },
+  "the right base for a {keyword} patio": {
+    "count": 1,
+    "examples": [
+      "The right base for a gravel patio"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.0
+  },
+  "{keyword} patches in concrete after sanding": {
+    "count": 1,
+    "examples": [
+      "Gravel patches in concrete after sanding"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.0
+  },
+  "laying stepping stones in {keyword} path": {
+    "count": 1,
+    "examples": [
+      "laying stepping stones in gravel path"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.0
+  },
+  "concrete or {keyword} for deck post?": {
+    "count": 1,
+    "examples": [
+      "Concrete or gravel for deck post?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.0
+  },
+  "small grain {keyword} as patio base": {
+    "count": 1,
+    "examples": [
+      "Small grain gravel as patio base"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.0
+  },
+  "mounded dirt prep for {keyword} driveway?": {
+    "count": 1,
+    "examples": [
+      "mounded dirt prep for gravel driveway?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.0
+  },
+  "clay and {keyword} liquefaction for paver installation": {
+    "count": 1,
+    "examples": [
+      "Clay and Gravel Liquefaction for Paver Installation"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 1.0
+  },
+  "b&q {keyword} calculator": {
+    "count": 1,
+    "examples": [
+      "b&q gravel calculator"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.75
+  },
+  "pea {keyword} calculator": {
+    "count": 1,
+    "examples": [
+      "pea gravel calculator"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.75
+  },
+  "{keyword} needed calculator": {
+    "count": 1,
+    "examples": [
+      "gravel needed calculator"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.75
+  },
+  "a {keyword} calculator": {
+    "count": 1,
+    "examples": [
+      "a gravel calculator"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.75
+  },
+  "{keyword} yardage calculator": {
+    "count": 1,
+    "examples": [
+      "gravel yardage calculator"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.75
+  },
+  "{keyword} yard calculator": {
+    "count": 1,
+    "examples": [
+      "gravel yard calculator"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.75
+  },
+  "{keyword} driveway calculator": {
+    "count": 1,
+    "examples": [
+      "gravel driveway calculator"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.75
+  },
+  "{keyword} quantity calculator": {
+    "count": 1,
+    "examples": [
+      "gravel quantity calculator"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.75
+  },
+  "{keyword} calculator tons": {
+    "count": 1,
+    "examples": [
+      "gravel calculator tons"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.75
+  },
+  "b {keyword} calculator": {
+    "count": 1,
+    "examples": [
+      "b gravel calculator"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.75
+  },
+  "{keyword} volume calculator": {
+    "count": 1,
+    "examples": [
+      "gravel volume calculator"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.75
+  },
+  "is {keyword} under lower control arm joint a problem?": {
+    "count": 1,
+    "examples": [
+      "Is gravel under lower control arm joint a problem?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 0.6
+  },
+  "{keyword} under vinyl fence post in clay soil?": {
+    "count": 1,
+    "examples": [
+      "Gravel under vinyl fence post in clay soil?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 0.6
+  },
+  "can bushes help keep driveway and patio {keyword} stable?": {
+    "count": 1,
+    "examples": [
+      "Can bushes help keep driveway and patio gravel stable?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 0.6
+  },
+  "wu-tang clan - {keyword} pit (official hd video)": {
+    "count": 1,
+    "examples": [
+      "Wu-Tang Clan - Gravel Pit (Official HD Video)"
+    ],
+    "sources": [
+      "yt_titles"
+    ],
+    "source_diversity": 1,
+    "score": 0.6
+  },
+  "ranxo {keyword} race bikecheck - new fast wheels!": {
+    "count": 1,
+    "examples": [
+      "RANXO GRAVEL RACE BIKECHECK - NEW FAST WHEELS!"
+    ],
+    "sources": [
+      "yt_titles"
+    ],
+    "source_diversity": 1,
+    "score": 0.6
+  },
+  "{keyword} paso robles": {
+    "count": 1,
+    "examples": [
+      "gravel paso robles"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} without fines": {
+    "count": 1,
+    "examples": [
+      "gravel without fines"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} with binder": {
+    "count": 1,
+    "examples": [
+      "gravel with binder"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} h cinturato": {
+    "count": 1,
+    "examples": [
+      "gravel h cinturato"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} for landscaping": {
+    "count": 1,
+    "examples": [
+      "gravel for landscaping"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "a {keyword} road": {
+    "count": 1,
+    "examples": [
+      "a gravel road"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} king zx": {
+    "count": 1,
+    "examples": [
+      "gravel king zx"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "x {keyword} ican": {
+    "count": 1,
+    "examples": [
+      "x gravel ican"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} m cinturato": {
+    "count": 1,
+    "examples": [
+      "gravel m cinturato"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "concrete without {keyword}": {
+    "count": 1,
+    "examples": [
+      "concrete without gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "for {keyword} driveway": {
+    "count": 1,
+    "examples": [
+      "for gravel driveway"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "c&j {keyword} products": {
+    "count": 1,
+    "examples": [
+      "c&j gravel products"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "p {keyword} concrete": {
+    "count": 1,
+    "examples": [
+      "p gravel concrete"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} under concrete": {
+    "count": 1,
+    "examples": [
+      "gravel under concrete"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} m {num}": {
+    "count": 1,
+    "examples": [
+      "gravel m 45"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} with pavers": {
+    "count": 1,
+    "examples": [
+      "gravel with pavers"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "c&j {keyword} durango": {
+    "count": 1,
+    "examples": [
+      "c&j gravel durango"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} stabilizer grid": {
+    "count": 1,
+    "examples": [
+      "gravel stabilizer grid"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "under {keyword} filter": {
+    "count": 1,
+    "examples": [
+      "under gravel filter"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "dogma f {keyword}": {
+    "count": 1,
+    "examples": [
+      "dogma f gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} jersey men": {
+    "count": 1,
+    "examples": [
+      "gravel jersey men"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "b&q {keyword} boards": {
+    "count": 1,
+    "examples": [
+      "b&q gravel boards"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} bike tires": {
+    "count": 1,
+    "examples": [
+      "gravel bike tires"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} santa barbara": {
+    "count": 1,
+    "examples": [
+      "gravel santa barbara"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} without dust": {
+    "count": 1,
+    "examples": [
+      "gravel without dust"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} fire pit": {
+    "count": 1,
+    "examples": [
+      "gravel fire pit"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "b&q {keyword} bags": {
+    "count": 1,
+    "examples": [
+      "b&q gravel bags"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} electric bike": {
+    "count": 1,
+    "examples": [
+      "gravel electric bike"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} zanesville ohio": {
+    "count": 1,
+    "examples": [
+      "gravel zanesville ohio"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} driveway repair": {
+    "count": 1,
+    "examples": [
+      "gravel driveway repair"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "p {keyword} glue": {
+    "count": 1,
+    "examples": [
+      "p gravel glue"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} m 45mm": {
+    "count": 1,
+    "examples": [
+      "gravel m 45mm"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} under deck": {
+    "count": 1,
+    "examples": [
+      "gravel under deck"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "t {keyword} bike": {
+    "count": 1,
+    "examples": [
+      "t gravel bike"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} explorer slim": {
+    "count": 1,
+    "examples": [
+      "gravel explorer slim"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} glue spray": {
+    "count": 1,
+    "examples": [
+      "gravel glue spray"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} with plants": {
+    "count": 1,
+    "examples": [
+      "gravel with plants"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} vs mulch": {
+    "count": 1,
+    "examples": [
+      "gravel vs mulch"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} over dirt": {
+    "count": 1,
+    "examples": [
+      "gravel over dirt"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "class c {keyword}": {
+    "count": 1,
+    "examples": [
+      "class c gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} with cement": {
+    "count": 1,
+    "examples": [
+      "gravel with cement"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} for garden": {
+    "count": 1,
+    "examples": [
+      "gravel for garden"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} h series": {
+    "count": 1,
+    "examples": [
+      "gravel h series"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} x bike": {
+    "count": 1,
+    "examples": [
+      "gravel x bike"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} travel blanket": {
+    "count": 1,
+    "examples": [
+      "gravel travel blanket"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} h bar": {
+    "count": 1,
+    "examples": [
+      "gravel h bar"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "r {keyword} bikes": {
+    "count": 1,
+    "examples": [
+      "r gravel bikes"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "b&q {keyword} stones": {
+    "count": 1,
+    "examples": [
+      "b&q gravel stones"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} race bikes": {
+    "count": 1,
+    "examples": [
+      "gravel race bikes"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "f {keyword} artist": {
+    "count": 1,
+    "examples": [
+      "f gravel artist"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} walkway ideas": {
+    "count": 1,
+    "examples": [
+      "gravel walkway ideas"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "c {keyword} size": {
+    "count": 1,
+    "examples": [
+      "c gravel size"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "o {keyword} toulouse": {
+    "count": 1,
+    "examples": [
+      "o gravel toulouse"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} under shed": {
+    "count": 1,
+    "examples": [
+      "gravel under shed"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} nationals {num}": {
+    "count": 1,
+    "examples": [
+      "gravel nationals 2026"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} and grace": {
+    "count": 1,
+    "examples": [
+      "gravel and grace"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} with sand": {
+    "count": 1,
+    "examples": [
+      "gravel with sand"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} xc bike": {
+    "count": 1,
+    "examples": [
+      "gravel xc bike"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} uses minecraft": {
+    "count": 1,
+    "examples": [
+      "gravel uses minecraft"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "x {keyword} bike": {
+    "count": 1,
+    "examples": [
+      "x gravel bike"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "p {keyword} driveway": {
+    "count": 1,
+    "examples": [
+      "p gravel driveway"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "under {keyword} fabric": {
+    "count": 1,
+    "examples": [
+      "under gravel fabric"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} yard ideas": {
+    "count": 1,
+    "examples": [
+      "gravel yard ideas"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} quarter minus": {
+    "count": 1,
+    "examples": [
+      "gravel quarter minus"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} tires 700c": {
+    "count": 1,
+    "examples": [
+      "gravel tires 700c"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} driveway edging": {
+    "count": 1,
+    "examples": [
+      "gravel driveway edging"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} for pavers": {
+    "count": 1,
+    "examples": [
+      "gravel for pavers"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} c value": {
+    "count": 1,
+    "examples": [
+      "gravel c value"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} with edging": {
+    "count": 1,
+    "examples": [
+      "gravel with edging"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} grid system": {
+    "count": 1,
+    "examples": [
+      "gravel grid system"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} toiletry bag": {
+    "count": 1,
+    "examples": [
+      "gravel toiletry bag"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} for drainage": {
+    "count": 1,
+    "examples": [
+      "gravel for drainage"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} in bags": {
+    "count": 1,
+    "examples": [
+      "gravel in bags"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} driveway ideas": {
+    "count": 1,
+    "examples": [
+      "gravel driveway ideas"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} home depot": {
+    "count": 1,
+    "examples": [
+      "gravel home depot"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} under pavers": {
+    "count": 1,
+    "examples": [
+      "gravel under pavers"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} t shirts": {
+    "count": 1,
+    "examples": [
+      "gravel t shirts"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} king tires": {
+    "count": 1,
+    "examples": [
+      "gravel king tires"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "o {keyword} calendrier": {
+    "count": 1,
+    "examples": [
+      "o gravel calendrier"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} patio ideas": {
+    "count": 1,
+    "examples": [
+      "gravel patio ideas"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "rrats y-{keyword}": {
+    "count": 1,
+    "examples": [
+      "rrats y-gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} on sale": {
+    "count": 1,
+    "examples": [
+      "gravel on sale"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} d series": {
+    "count": 1,
+    "examples": [
+      "gravel d series"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} outdoor patio": {
+    "count": 1,
+    "examples": [
+      "gravel outdoor patio"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} lock spray": {
+    "count": 1,
+    "examples": [
+      "gravel lock spray"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} and gold": {
+    "count": 1,
+    "examples": [
+      "gravel and gold"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} wheelset 700c": {
+    "count": 1,
+    "examples": [
+      "gravel wheelset 700c"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} earth series": {
+    "count": 1,
+    "examples": [
+      "gravel earth series"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} i bergen": {
+    "count": 1,
+    "examples": [
+      "gravel i bergen"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} for concrete": {
+    "count": 1,
+    "examples": [
+      "gravel for concrete"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} without sand": {
+    "count": 1,
+    "examples": [
+      "gravel without sand"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} over concrete": {
+    "count": 1,
+    "examples": [
+      "gravel over concrete"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} m tires": {
+    "count": 1,
+    "examples": [
+      "gravel m tires"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} h handlebar": {
+    "count": 1,
+    "examples": [
+      "gravel h handlebar"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} xray minecraft": {
+    "count": 1,
+    "examples": [
+      "gravel xray minecraft"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} king sk": {
+    "count": 1,
+    "examples": [
+      "gravel king sk"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} edging ideas": {
+    "count": 1,
+    "examples": [
+      "gravel edging ideas"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "a {keyword} pit": {
+    "count": 1,
+    "examples": [
+      "a gravel pit"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} with epoxy": {
+    "count": 1,
+    "examples": [
+      "gravel with epoxy"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "b&q {keyword} grids": {
+    "count": 1,
+    "examples": [
+      "b&q gravel grids"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "r {keyword} chicoutimi": {
+    "count": 1,
+    "examples": [
+      "r gravel chicoutimi"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} monkey reviews": {
+    "count": 1,
+    "examples": [
+      "gravel monkey reviews"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "r {keyword} rohloff": {
+    "count": 1,
+    "examples": [
+      "r gravel rohloff"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} x events": {
+    "count": 1,
+    "examples": [
+      "gravel x events"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} m pirelli": {
+    "count": 1,
+    "examples": [
+      "gravel m pirelli"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} y level": {
+    "count": 1,
+    "examples": [
+      "gravel y level"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} jersey cycling": {
+    "count": 1,
+    "examples": [
+      "gravel jersey cycling"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} in spanish": {
+    "count": 1,
+    "examples": [
+      "gravel in spanish"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "i {keyword} bike": {
+    "count": 1,
+    "examples": [
+      "i gravel bike"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} bike shoes": {
+    "count": 1,
+    "examples": [
+      "gravel bike shoes"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "c base {keyword}": {
+    "count": 1,
+    "examples": [
+      "c base gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} h pirelli": {
+    "count": 1,
+    "examples": [
+      "gravel h pirelli"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} landscaping ideas": {
+    "count": 1,
+    "examples": [
+      "gravel landscaping ideas"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} epoxy floor": {
+    "count": 1,
+    "examples": [
+      "gravel epoxy floor"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} g {num}": {
+    "count": 1,
+    "examples": [
+      "gravel g 1"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "f {keyword} bike": {
+    "count": 1,
+    "examples": [
+      "f gravel bike"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} with glue": {
+    "count": 1,
+    "examples": [
+      "gravel with glue"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} h {num}": {
+    "count": 1,
+    "examples": [
+      "gravel h 45"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} zen garden": {
+    "count": 1,
+    "examples": [
+      "gravel zen garden"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} h tire": {
+    "count": 1,
+    "examples": [
+      "gravel h tire"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} q es": {
+    "count": 1,
+    "examples": [
+      "gravel q es"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} r value": {
+    "count": 1,
+    "examples": [
+      "gravel r value"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} m tyres": {
+    "count": 1,
+    "examples": [
+      "gravel m tyres"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} xbox one": {
+    "count": 1,
+    "examples": [
+      "gravel xbox one"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} unbound {num}": {
+    "count": 1,
+    "examples": [
+      "gravel unbound 2026"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} for sale": {
+    "count": 1,
+    "examples": [
+      "gravel for sale"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} without edging": {
+    "count": 1,
+    "examples": [
+      "gravel without edging"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} k value": {
+    "count": 1,
+    "examples": [
+      "gravel k value"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} road bike": {
+    "count": 1,
+    "examples": [
+      "gravel road bike"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} bike california": {
+    "count": 1,
+    "examples": [
+      "gravel bike california"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} explorer mini": {
+    "count": 1,
+    "examples": [
+      "gravel explorer mini"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} m 50mm": {
+    "count": 1,
+    "examples": [
+      "gravel m 50mm"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} in minecraft": {
+    "count": 1,
+    "examples": [
+      "gravel in minecraft"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} over pavers": {
+    "count": 1,
+    "examples": [
+      "gravel over pavers"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "x {keyword} {num}": {
+    "count": 1,
+    "examples": [
+      "x gravel 2"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} underlayment fabric": {
+    "count": 1,
+    "examples": [
+      "gravel underlayment fabric"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "fara f {keyword}": {
+    "count": 1,
+    "examples": [
+      "fara f gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} monkey locations": {
+    "count": 1,
+    "examples": [
+      "gravel monkey locations"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} y size": {
+    "count": 1,
+    "examples": [
+      "gravel y size"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "k {keyword} nhl": {
+    "count": 1,
+    "examples": [
+      "k gravel nhl"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} for driveway": {
+    "count": 1,
+    "examples": [
+      "gravel for driveway"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "a {keyword} driveway": {
+    "count": 1,
+    "examples": [
+      "a gravel driveway"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} n bones": {
+    "count": 1,
+    "examples": [
+      "gravel n bones"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} i minecraft": {
+    "count": 1,
+    "examples": [
+      "gravel i minecraft"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} f pinarello": {
+    "count": 1,
+    "examples": [
+      "gravel f pinarello"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} without membrane": {
+    "count": 1,
+    "examples": [
+      "gravel without membrane"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} yard lyrics": {
+    "count": 1,
+    "examples": [
+      "gravel yard lyrics"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} with fines": {
+    "count": 1,
+    "examples": [
+      "gravel with fines"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} with resin": {
+    "count": 1,
+    "examples": [
+      "gravel with resin"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} in bulk": {
+    "count": 1,
+    "examples": [
+      "gravel in bulk"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "k crusher {keyword}": {
+    "count": 1,
+    "examples": [
+      "k crusher gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} xbox game": {
+    "count": 1,
+    "examples": [
+      "gravel xbox game"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} worlds {num}": {
+    "count": 1,
+    "examples": [
+      "gravel worlds 2026"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "e {keyword} bikes": {
+    "count": 1,
+    "examples": [
+      "e gravel bikes"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "b {keyword} size": {
+    "count": 1,
+    "examples": [
+      "b gravel size"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "a {keyword} bike": {
+    "count": 1,
+    "examples": [
+      "a gravel bike"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} x triathlon": {
+    "count": 1,
+    "examples": [
+      "gravel x triathlon"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} king slicks": {
+    "count": 1,
+    "examples": [
+      "gravel king slicks"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} over grass": {
+    "count": 1,
+    "examples": [
+      "gravel over grass"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} king x1": {
+    "count": 1,
+    "examples": [
+      "gravel king x1"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} for aquarium": {
+    "count": 1,
+    "examples": [
+      "gravel for aquarium"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} cycling shoes": {
+    "count": 1,
+    "examples": [
+      "gravel cycling shoes"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} m 700x45": {
+    "count": 1,
+    "examples": [
+      "gravel m 700x45"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} king panaracer": {
+    "count": 1,
+    "examples": [
+      "gravel king panaracer"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} hill tactical": {
+    "count": 1,
+    "examples": [
+      "gravel hill tactical"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "sand and {keyword}": {
+    "count": 1,
+    "examples": [
+      "sand and gravel"
+    ],
+    "sources": [
+      "pytrends_top"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} bike herren": {
+    "count": 1,
+    "examples": [
+      "gravel bike herren"
+    ],
+    "sources": [
+      "pytrends_rising"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "pirelli cinturato {keyword}": {
+    "count": 1,
+    "examples": [
+      "pirelli cinturato gravel"
+    ],
+    "sources": [
+      "pytrends_rising"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "electric {keyword} bike": {
+    "count": 1,
+    "examples": [
+      "electric gravel bike"
+    ],
+    "sources": [
+      "pytrends_rising"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} bike damen": {
+    "count": 1,
+    "examples": [
+      "gravel bike damen"
+    ],
+    "sources": [
+      "pytrends_rising"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "{keyword} e bike": {
+    "count": 1,
+    "examples": [
+      "gravel e bike"
+    ],
+    "sources": [
+      "pytrends_rising"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "scott addict {keyword}": {
+    "count": 1,
+    "examples": [
+      "scott addict gravel"
+    ],
+    "sources": [
+      "pytrends_rising"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "rose {keyword} bike": {
+    "count": 1,
+    "examples": [
+      "rose gravel bike"
+    ],
+    "sources": [
+      "pytrends_rising"
+    ],
+    "source_diversity": 1,
+    "score": 0.5
+  },
+  "o {keyword}": {
+    "count": 1,
+    "examples": [
+      "o gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} unbound": {
+    "count": 1,
+    "examples": [
+      "gravel unbound"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} maps": {
+    "count": 1,
+    "examples": [
+      "gravel maps"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} kit": {
+    "count": 1,
+    "examples": [
+      "gravel kit"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "d&j {keyword}": {
+    "count": 1,
+    "examples": [
+      "d&j gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "k&h {keyword}": {
+    "count": 1,
+    "examples": [
+      "k&h gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "k {keyword}": {
+    "count": 1,
+    "examples": [
+      "k gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} institute": {
+    "count": 1,
+    "examples": [
+      "gravel institute"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} lot": {
+    "count": 1,
+    "examples": [
+      "gravel lot"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "v {keyword}": {
+    "count": 1,
+    "examples": [
+      "v gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} garden": {
+    "count": 1,
+    "examples": [
+      "gravel garden"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "j {keyword}": {
+    "count": 1,
+    "examples": [
+      "j gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "p&k {keyword}": {
+    "count": 1,
+    "examples": [
+      "p&k gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} mat": {
+    "count": 1,
+    "examples": [
+      "gravel mat"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} delivery": {
+    "count": 1,
+    "examples": [
+      "gravel delivery"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} king": {
+    "count": 1,
+    "examples": [
+      "gravel king"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "t&j {keyword}": {
+    "count": 1,
+    "examples": [
+      "t&j gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} worlds": {
+    "count": 1,
+    "examples": [
+      "gravel worlds"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "a {keyword}": {
+    "count": 1,
+    "examples": [
+      "a gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} unscramble": {
+    "count": 1,
+    "examples": [
+      "gravel unscramble"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "c&r {keyword}": {
+    "count": 1,
+    "examples": [
+      "c&r gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} compactor": {
+    "count": 1,
+    "examples": [
+      "gravel compactor"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "r {keyword}": {
+    "count": 1,
+    "examples": [
+      "r gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} gloves": {
+    "count": 1,
+    "examples": [
+      "gravel gloves"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} joints": {
+    "count": 1,
+    "examples": [
+      "gravel joints"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "l&f {keyword}": {
+    "count": 1,
+    "examples": [
+      "l&f gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} uk": {
+    "count": 1,
+    "examples": [
+      "gravel uk"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} definition": {
+    "count": 1,
+    "examples": [
+      "gravel definition"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "b {keyword}": {
+    "count": 1,
+    "examples": [
+      "b gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} host": {
+    "count": 1,
+    "examples": [
+      "gravel host"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "h {keyword}": {
+    "count": 1,
+    "examples": [
+      "h gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} zomboid": {
+    "count": 1,
+    "examples": [
+      "gravel zomboid"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "m {keyword}": {
+    "count": 1,
+    "examples": [
+      "m gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} vac": {
+    "count": 1,
+    "examples": [
+      "gravel vac"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "f {keyword}": {
+    "count": 1,
+    "examples": [
+      "f gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} x3": {
+    "count": 1,
+    "examples": [
+      "gravel x3"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "c&j {keyword}": {
+    "count": 1,
+    "examples": [
+      "c&j gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} leveler": {
+    "count": 1,
+    "examples": [
+      "gravel leveler"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} installation": {
+    "count": 1,
+    "examples": [
+      "gravel installation"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} rake": {
+    "count": 1,
+    "examples": [
+      "gravel rake"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} pave": {
+    "count": 1,
+    "examples": [
+      "gravel pave"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} holder": {
+    "count": 1,
+    "examples": [
+      "gravel holder"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "d&k {keyword}": {
+    "count": 1,
+    "examples": [
+      "d&k gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} handlebars": {
+    "count": 1,
+    "examples": [
+      "gravel handlebars"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} mulch": {
+    "count": 1,
+    "examples": [
+      "gravel mulch"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} hauling": {
+    "count": 1,
+    "examples": [
+      "gravel hauling"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} walkway": {
+    "count": 1,
+    "examples": [
+      "gravel walkway"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} colors": {
+    "count": 1,
+    "examples": [
+      "gravel colors"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} walmart": {
+    "count": 1,
+    "examples": [
+      "gravel walmart"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "q {keyword}": {
+    "count": 1,
+    "examples": [
+      "q gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} rocks": {
+    "count": 1,
+    "examples": [
+      "gravel rocks"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} quote": {
+    "count": 1,
+    "examples": [
+      "gravel quote"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} wheels": {
+    "count": 1,
+    "examples": [
+      "gravel wheels"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} sizes": {
+    "count": 1,
+    "examples": [
+      "gravel sizes"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} gertie": {
+    "count": 1,
+    "examples": [
+      "gravel gertie"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} racing": {
+    "count": 1,
+    "examples": [
+      "gravel racing"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} edging": {
+    "count": 1,
+    "examples": [
+      "gravel edging"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} lok": {
+    "count": 1,
+    "examples": [
+      "gravel lok"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} cycling": {
+    "count": 1,
+    "examples": [
+      "gravel cycling"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} quarry": {
+    "count": 1,
+    "examples": [
+      "gravel quarry"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "e {keyword}": {
+    "count": 1,
+    "examples": [
+      "e gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} tires": {
+    "count": 1,
+    "examples": [
+      "gravel tires"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "t {keyword}": {
+    "count": 1,
+    "examples": [
+      "t gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "x {keyword}": {
+    "count": 1,
+    "examples": [
+      "x gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "d {keyword}": {
+    "count": 1,
+    "examples": [
+      "d gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "under {keyword}": {
+    "count": 1,
+    "examples": [
+      "under gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} bike": {
+    "count": 1,
+    "examples": [
+      "gravel bike"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "mossy {keyword}": {
+    "count": 1,
+    "examples": [
+      "mossy gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} truck": {
+    "count": 1,
+    "examples": [
+      "gravel truck"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} options": {
+    "count": 1,
+    "examples": [
+      "gravel options"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} monkey": {
+    "count": 1,
+    "examples": [
+      "gravel monkey"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} yard": {
+    "count": 1,
+    "examples": [
+      "gravel yard"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} shop": {
+    "count": 1,
+    "examples": [
+      "gravel shop"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} quartz": {
+    "count": 1,
+    "examples": [
+      "gravel quartz"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} jersey": {
+    "count": 1,
+    "examples": [
+      "gravel jersey"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} boards": {
+    "count": 1,
+    "examples": [
+      "gravel boards"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} texture": {
+    "count": 1,
+    "examples": [
+      "gravel texture"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} xeriscape": {
+    "count": 1,
+    "examples": [
+      "gravel xeriscape"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "b&c {keyword}": {
+    "count": 1,
+    "examples": [
+      "b&c gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} epoxy": {
+    "count": 1,
+    "examples": [
+      "gravel epoxy"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "without {keyword}": {
+    "count": 1,
+    "examples": [
+      "without gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} mine": {
+    "count": 1,
+    "examples": [
+      "gravel mine"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} jobs": {
+    "count": 1,
+    "examples": [
+      "gravel jobs"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} stabilizer": {
+    "count": 1,
+    "examples": [
+      "gravel stabilizer"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "p {keyword}": {
+    "count": 1,
+    "examples": [
+      "p gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} lock": {
+    "count": 1,
+    "examples": [
+      "gravel lock"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "c {keyword}": {
+    "count": 1,
+    "examples": [
+      "c gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} images": {
+    "count": 1,
+    "examples": [
+      "gravel images"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} vacuum": {
+    "count": 1,
+    "examples": [
+      "gravel vacuum"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} bags": {
+    "count": 1,
+    "examples": [
+      "gravel bags"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} wheelset": {
+    "count": 1,
+    "examples": [
+      "gravel wheelset"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "j&s {keyword}": {
+    "count": 1,
+    "examples": [
+      "j&s gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} grids": {
+    "count": 1,
+    "examples": [
+      "gravel grids"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} guard": {
+    "count": 1,
+    "examples": [
+      "gravel guard"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} helmet": {
+    "count": 1,
+    "examples": [
+      "gravel helmet"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} lowes": {
+    "count": 1,
+    "examples": [
+      "gravel lowes"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} glue": {
+    "count": 1,
+    "examples": [
+      "gravel glue"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} company": {
+    "count": 1,
+    "examples": [
+      "gravel company"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} tamper": {
+    "count": 1,
+    "examples": [
+      "gravel tamper"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} types": {
+    "count": 1,
+    "examples": [
+      "gravel types"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} minecraft": {
+    "count": 1,
+    "examples": [
+      "gravel minecraft"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "g {keyword}": {
+    "count": 1,
+    "examples": [
+      "g gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "l {keyword}": {
+    "count": 1,
+    "examples": [
+      "l gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} landscaping": {
+    "count": 1,
+    "examples": [
+      "gravel landscaping"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} locos": {
+    "count": 1,
+    "examples": [
+      "gravel locos"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} backyard": {
+    "count": 1,
+    "examples": [
+      "gravel backyard"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} order": {
+    "count": 1,
+    "examples": [
+      "gravel order"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} estimator": {
+    "count": 1,
+    "examples": [
+      "gravel estimator"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} underlayment": {
+    "count": 1,
+    "examples": [
+      "gravel underlayment"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} osrs": {
+    "count": 1,
+    "examples": [
+      "gravel osrs"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} patio": {
+    "count": 1,
+    "examples": [
+      "gravel patio"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} xbox": {
+    "count": 1,
+    "examples": [
+      "gravel xbox"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} driveway": {
+    "count": 1,
+    "examples": [
+      "gravel driveway"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} grid": {
+    "count": 1,
+    "examples": [
+      "gravel grid"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} shoes": {
+    "count": 1,
+    "examples": [
+      "gravel shoes"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} zwift": {
+    "count": 1,
+    "examples": [
+      "gravel zwift"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} voice": {
+    "count": 1,
+    "examples": [
+      "gravel voice"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} pad": {
+    "count": 1,
+    "examples": [
+      "gravel pad"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "b&q {keyword}": {
+    "count": 1,
+    "examples": [
+      "b&q gravel"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} leaf": {
+    "count": 1,
+    "examples": [
+      "gravel leaf"
+    ],
+    "sources": [
+      "autosuggest"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{num} harley forty-eight special - won't accelerate after {keyword} wipeout": {
+    "count": 1,
+    "examples": [
+      "2018 Harley Forty-Eight Special - Won't Accelerate After Gravel Wipeout"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} inside concrete form or form on top of {keyword}?": {
+    "count": 1,
+    "examples": [
+      "Gravel inside concrete form or form on top of gravel?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "is it ok to put sod on top of {keyword}?": {
+    "count": 1,
+    "examples": [
+      "Is it OK to put sod on top of gravel?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "can {keyword} be used beneath wood chips for weed control?": {
+    "count": 1,
+    "examples": [
+      "Can gravel be used beneath wood chips for weed control?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "can i use crushed stone instead of pea {keyword} for drainage?": {
+    "count": 1,
+    "examples": [
+      "Can I use crushed stone instead of pea gravel for drainage?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "membrane & top soil on top of pea {keyword} land drain": {
+    "count": 1,
+    "examples": [
+      "Membrane & Top Soil on top of Pea Gravel Land Drain"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "can i safely remove glued {keyword} on top of my bonsai plant's soil?": {
+    "count": 1,
+    "examples": [
+      "Can I safely remove glued gravel on top of my bonsai plant's soil?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "is {num} miles of unpaved {keyword} road a lot for a old-ish consumer road car to take in normal weather?": {
+    "count": 1,
+    "examples": [
+      "Is 8 miles of unpaved gravel road a lot for a old-ish consumer road car to take in normal weather?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "should i install {keyword} or artificial turf in a trapezoid-shaped yard?": {
+    "count": 1,
+    "examples": [
+      "Should I install gravel or artificial turf in a trapezoid-shaped yard?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "is it harmful to a car to be parked on {keyword} and mud instead of pavement?": {
+    "count": 1,
+    "examples": [
+      "Is it harmful to a car to be parked on gravel and mud instead of pavement?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "should we add {keyword} to the cacti soil mix for succulent?": {
+    "count": 1,
+    "examples": [
+      "Should we add gravel to the cacti soil mix for succulent?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} border around grass and hover mower issues and advice": {
+    "count": 1,
+    "examples": [
+      "Gravel border around grass and hover mower issues and advice"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "landlady prohibits removal of {keyword}, is it possible to grow grass on top?": {
+    "count": 1,
+    "examples": [
+      "Landlady prohibits removal of gravel, is it possible to grow grass on top?"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "finding the velocity of water flowing through a {keyword} filled pipe": {
+    "count": 1,
+    "examples": [
+      "Finding the velocity of water flowing through a gravel filled pipe"
+    ],
+    "sources": [
+      "stackexchange"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "bike {keyword}": {
+    "count": 1,
+    "examples": [
+      "bike gravel"
+    ],
+    "sources": [
+      "pytrends_top"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "driveway {keyword}": {
+    "count": 1,
+    "examples": [
+      "driveway gravel"
+    ],
+    "sources": [
+      "pytrends_top"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "canyon {keyword}": {
+    "count": 1,
+    "examples": [
+      "canyon gravel"
+    ],
+    "sources": [
+      "pytrends_top"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "scott {keyword}": {
+    "count": 1,
+    "examples": [
+      "scott gravel"
+    ],
+    "sources": [
+      "pytrends_top"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "specialized {keyword}": {
+    "count": 1,
+    "examples": [
+      "specialized gravel"
+    ],
+    "sources": [
+      "pytrends_top"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} velo": {
+    "count": 1,
+    "examples": [
+      "gravel velo"
+    ],
+    "sources": [
+      "pytrends_top"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "velo {keyword}": {
+    "count": 1,
+    "examples": [
+      "velo gravel"
+    ],
+    "sources": [
+      "pytrends_top"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "trek {keyword}": {
+    "count": 1,
+    "examples": [
+      "trek gravel"
+    ],
+    "sources": [
+      "pytrends_top"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "bici {keyword}": {
+    "count": 1,
+    "examples": [
+      "bici gravel"
+    ],
+    "sources": [
+      "pytrends_top"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "white {keyword}": {
+    "count": 1,
+    "examples": [
+      "white gravel"
+    ],
+    "sources": [
+      "pytrends_top"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "giant {keyword}": {
+    "count": 1,
+    "examples": [
+      "giant gravel"
+    ],
+    "sources": [
+      "pytrends_top"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "unbound {keyword}": {
+    "count": 1,
+    "examples": [
+      "unbound gravel"
+    ],
+    "sources": [
+      "pytrends_rising"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} electrique": {
+    "count": 1,
+    "examples": [
+      "gravel electrique"
+    ],
+    "sources": [
+      "pytrends_rising"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} kolo": {
+    "count": 1,
+    "examples": [
+      "gravel kolo"
+    ],
+    "sources": [
+      "pytrends_rising"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} rower": {
+    "count": 1,
+    "examples": [
+      "gravel rower"
+    ],
+    "sources": [
+      "pytrends_rising"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "orbea {keyword}": {
+    "count": 1,
+    "examples": [
+      "orbea gravel"
+    ],
+    "sources": [
+      "pytrends_rising"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "{keyword} py\u00f6r\u00e4": {
+    "count": 1,
+    "examples": [
+      "gravel py\u00f6r\u00e4"
+    ],
+    "sources": [
+      "pytrends_rising"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "rose {keyword}": {
+    "count": 1,
+    "examples": [
+      "rose gravel"
+    ],
+    "sources": [
+      "pytrends_rising"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "exploring {num}\u201d {keyword} opportunities and limiters with mosaic cycles and wtb": {
+    "count": 1,
+    "examples": [
+      "Exploring 32\u201d gravel opportunities and limiters with Mosaic Cycles and WTB"
+    ],
+    "sources": [
+      "yt_titles"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "are your rides whimsical enough? | a {keyword} ride swim quest": {
+    "count": 1,
+    "examples": [
+      "Are Your Rides Whimsical Enough? | A Gravel Ride Swim Quest"
+    ],
+    "sources": [
+      "yt_titles"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "those 2km/h from 18km/h to 20km/h sound like a {num}% performance increase due to the road bike. {num}% sounds like a lot to me. \nand since i ride mostly {keyword} and make it a point in keeping up with the roadies, i am actually chuffed that i'm {num}% better than them. :d": {
+    "count": 1,
+    "examples": [
+      "Those 2Km/h from 18Km/h to 20Km/h sound like a 10% performance increase due to the road bike. 10% sounds like a lot to me. \nAnd since I ride mostly gravel and make it a point in keeping up with the roadies, I am actually chuffed that I'm 10% better than them. :D"
+    ],
+    "sources": [
+      "yt comments"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "cool idea - the only thing i'd do differently is to put on some old jeans, hug the bag, cut one corner and just walk around and leak it onto the {keyword} until all my bags are empty. or cut a bag corner then drag it until empty. this would help distribute it more evenly then you can rake it in. i'd use the back side of the broom or rake to road grade it level before pouring water.": {
+    "count": 1,
+    "examples": [
+      "Cool idea - the only thing I'd do differently is to put on some old jeans, hug the bag, cut one corner and just walk around and leak it onto the gravel until all my bags are empty. Or cut a bag corner then drag it until empty. This would help distribute it more evenly then you can rake it in. I'd use the back side of the broom or rake to road grade it level before pouring water."
+    ],
+    "sources": [
+      "yt comments"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "it's not a mountain bike, sharon! it has a drop bar, and it's called a {keyword} bike. it's classy": {
+    "count": 1,
+    "examples": [
+      "It's NOT a mountain bike, Sharon! It has a drop bar, and it's called a gravel bike. It's classy"
+    ],
+    "sources": [
+      "yt comments"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "i'm using a {num} cannondale sm400 and can't tolerate the straight bar.  i would like something like the drop bar on my {num} st600 but wider than its' {num}\" outside to outside dimension.  can anyone suggest a {keyword} bike drop bar i might take a look at.": {
+    "count": 1,
+    "examples": [
+      "I'm using a 1990 Cannondale SM400 and can't tolerate the straight bar.  I would like something like the drop bar on my 1986 ST600 but wider than its' 16\" outside to outside dimension.  Can anyone suggest a gravel bike drop bar I might take a look at."
+    ],
+    "sources": [
+      "yt comments"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "backflip after passing the juniors. btw been doing that last year but didn't ended pretty well with my steel {keyword} bike lol": {
+    "count": 1,
+    "examples": [
+      "Backflip after passing the juniors. BTW been doing that last year but didn't ended pretty well with my steel gravel bike LOL"
+    ],
+    "sources": [
+      "yt comments"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "just put {keyword} tires on a mountain bike, that will give you most of the things you need.": {
+    "count": 1,
+    "examples": [
+      "Just put gravel tires on a mountain bike, that will give you most of the things you need."
+    ],
+    "sources": [
+      "yt comments"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "some {keyword} bikes look better than road, and for most of us gavel bike is faster for long rides because of comfort.": {
+    "count": 1,
+    "examples": [
+      "Some gravel bikes look better than road, and for most of us gavel bike is faster for long rides because of comfort."
+    ],
+    "sources": [
+      "yt comments"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "@brianridesusa5126\u00a0 true enough, but the same bike can feel very different with minor adjustments. i've got a cyclocross, and have experimented with e.g. moving the spacers from under the stem to slamming it, flipping the stem upside-down, shimmying the seat up and down or back and forth etc. a few millimetres, and those make a huge difference. hell, replacing the brake cable casings into non-compressible ones unexpectedly made me ride faster because i have better brake feel resulting in more confidence in the bike.\n\nhaving said that, i reckon a typical {keyword} bike would generally feel easier and less intimidating to ride out of the box, and is therefore better suited for a novice.": {
+    "count": 1,
+    "examples": [
+      "\u00a0@brianridesusa5126\u00a0 True enough, but the same bike can feel very different with minor adjustments. I've got a cyclocross, and have experimented with e.g. moving the spacers from under the stem to slamming it, flipping the stem upside-down, shimmying the seat up and down or back and forth etc. a few millimetres, and those make a huge difference. Hell, replacing the brake cable casings into non-compressible ones unexpectedly made me ride faster because I have better brake feel resulting in more confidence in the bike.\n\nHaving said that, I reckon a typical gravel bike would generally feel easier and less intimidating to ride out of the box, and is therefore better suited for a novice."
+    ],
+    "sources": [
+      "yt comments"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "i'm all for {keyword} getting more people on bikes. there shouldn't be just a road and mountain bike option. that said, i love my {num} cyclocross bike that hits all the dirt i care to, and it has plenty of tire clearance.": {
+    "count": 1,
+    "examples": [
+      "i'm all for gravel getting more people on bikes. There shouldn't be just a road and mountain bike option. That said, i love my 2010 cyclocross bike that hits all the dirt I care to, and it has plenty of tire clearance."
+    ],
+    "sources": [
+      "yt comments"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "@aliensporebomb\u00a0 i did a 340km weekend on my {keyword} bike with 34mm slicks. was good. hills easy because of lower gearing. but i think my road bike may have been fsster. justas comfortable really with 28mm tires. i need a better seat for thegravel bike. mine iz a touch too wide and gives alot of chaffing after 140km": {
+    "count": 1,
+    "examples": [
+      "\u00a0@aliensporebomb\u00a0 i did a 340km weekend on my gravel bike with 34mm slicks. Was good. Hills easy because of lower gearing. But i think my road bike may have been fsster. Justas comfortable really with 28mm tires. I need a better seat for thegravel bike. Mine iz a touch too wide and gives alot of chaffing after 140km"
+    ],
+    "sources": [
+      "yt comments"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "the dream {keyword} bike you described at the end is pretty much a trek checkpoint sl gen3": {
+    "count": 1,
+    "examples": [
+      "The dream gravel bike you described at the end is pretty much a Trek Checkpoint SL gen3"
+    ],
+    "sources": [
+      "yt comments"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "feel agility emotion, i.e. all of them tangibles are inextricably linked to experience. a bike that is more on the agile side will be difficult for an inexperienced rider on the descents, as well as on the steep climbs. a bike that is less agile, a {keyword} bike, maybe found to be better suited to an inexperienced road rider.": {
+    "count": 1,
+    "examples": [
+      "Feel agility emotion, i.e. all of them tangibles are inextricably linked to experience. A bike that is more on the agile side will be difficult for an inexperienced rider on the descents, as well as on the steep climbs. A bike that is less agile, a gravel bike, maybe found to be better suited to an inexperienced road rider."
+    ],
+    "sources": [
+      "yt comments"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "the prototype scott 32er {keyword} bike ridden at unbound looked very put together.   once the big brands start producing 32ers, i think 32ers will catch on.   i think we're maybe a year away from 32ers turning the bike industry upside down just like 29ers did.  build me a full-sus 32er epic or a 32er crux that fits my {num}'{num}\" height and i'll buy one.": {
+    "count": 1,
+    "examples": [
+      "The prototype Scott 32er Gravel bike ridden at Unbound looked very put together.   Once the big brands start producing 32ers, I think 32ers will catch on.   I think we're maybe a year away from 32ers turning the bike industry upside down just like 29ers did.  Build me a full-sus 32er Epic or a 32er Crux that fits my 5'9\" height and I'll buy one."
+    ],
+    "sources": [
+      "yt comments"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "well i bought a {keyword} bike frame (titanium, but i want this bike frame to last me forever, carbon wears out over time) before watching this video, but it checks all of the boxes (50mm tire clearance, {num}.{num} round seat post & standard steam for handlebars) except the frame will not have any internal frame storage, which i do not believe will be a huge deal for me.  well the components that i bought are mechanical disc brakes as well, but i heard someone say i can change out the brake pads to more grippy and closer to hydraulic disc brakes so i'm going to try that.  that said, i'm not intending to go down any super technical hills/single track, so i don't think it'll be an issue, but nothing that can't be changed over time either.": {
+    "count": 1,
+    "examples": [
+      "Well I bought a gravel bike frame (Titanium, but I want this bike frame to last me forever, carbon wears out over time) before watching this video, but it checks all of the boxes (50mm tire clearance, 27.2 round seat post & standard steam for handlebars) except the frame will not have any internal frame storage, which I do not believe will be a huge deal for me.  Well the components that I bought are mechanical disc brakes as well, but I heard someone say I can change out the brake pads to more grippy and closer to hydraulic disc brakes so I'm going to try that.  That said, I'm not intending to go down any super technical hills/single track, so I don't think it'll be an issue, but nothing that can't be changed over time either."
+    ],
+    "sources": [
+      "yt comments"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "inb4 {keyword} bikes evolve into mtbs for the 2nd time": {
+    "count": 1,
+    "examples": [
+      "inb4 gravel bikes evolve into mtbs for the 2nd time"
+    ],
+    "sources": [
+      "yt comments"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "biggest problem i see is guys trying to use a {keyword} bike in mtb terrain. to me, a {keyword} is an awesome road bike thats comfortable and can do some dirt roads as well. if you\u2019re mainly riding off-road and single-track, use an mtb and you\u2019ll be far happier and safer.": {
+    "count": 1,
+    "examples": [
+      "Biggest problem I see is guys trying to use a Gravel bike in MTB terrain. To me, a Gravel is an awesome road bike thats comfortable and can do some dirt roads as well. If you\u2019re mainly riding off-road and single-track, use an MTB and you\u2019ll be far happier and safer."
+    ],
+    "sources": [
+      "yt comments"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  },
+  "to me its all about aesthetics and feel. i grew up riding commuter bikes, and only relatively recently rode a modern road bike. now i'm completely addicted to road bikes. i am totally with si, even if we know the {keyword} bike is more practical and only slightly slower.": {
+    "count": 1,
+    "examples": [
+      "To me its all about aesthetics and feel. I grew up riding commuter bikes, and only relatively recently rode a modern road bike. Now I'm completely addicted to road bikes. I am totally with Si, even if we know the gravel bike is more practical and only slightly slower."
+    ],
+    "sources": [
+      "yt comments"
+    ],
+    "source_diversity": 1,
+    "score": 0.3
+  }
+}
