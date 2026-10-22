@@ -206,7 +206,8 @@ def evaluate(rows):
 def render_md(run, ev, rows, cost, balance_before, balance_after):
     def vol(v):
         return f"{v:,}" if isinstance(v, int) else "no data"
-    lines = [f"# Real search volume check: {run['seed']}", "",
+    title = run.get("seed") or f"{len(run.get('seeds', []))} seeds ({run.get('mode')})"
+    lines = [f"# Real search volume check: {title}", "",
              f"Google Ads monthly volume (US, English) via DataForSEO for run `{run['run_id']}`.", "",
              f"- Phrases: {ev['phrases']}; with volume data: {ev['with_volume']}; above zero: {ev['nonzero_volume']}",
              f"- **Rank agreement** (Spearman, engine order vs real volume): "
@@ -235,10 +236,15 @@ def render_md(run, ev, rows, cost, balance_before, balance_after):
 
 
 def run_volume(run_dir, ledger_path, spend=False, max_cost=0.10, wait_minutes=180, poll_s=60,
-               location_code=2840, language_code="en", client=None, log=print):
+               location_code=2840, language_code="en", client=None, log=print, limit=None):
     run_dir = Path(run_dir)
     run = json.loads((run_dir / "run.json").read_text(encoding="utf-8"))
-    phrases = [json.loads(l) for l in (run_dir / "phrases.jsonl").read_text(encoding="utf-8").splitlines() if l]
+    source = run_dir / "phrases.jsonl"
+    if not source.exists():
+        source = run_dir / "tools.jsonl"  # a tool-finder run
+    phrases = [json.loads(l) for l in source.read_text(encoding="utf-8").splitlines() if l]
+    if limit:
+        phrases = phrases[:limit]  # rows are in engine order, so this keeps the strongest
     ledger = Ledger(ledger_path)
 
     usable = list(dict.fromkeys(p["phrase"] for p in phrases if google_ads_ok(p["phrase"])))
@@ -292,7 +298,8 @@ def run_volume(run_dir, ledger_path, spend=False, max_cost=0.10, wait_minutes=18
         entry = best_entry(ledger, [p["phrase"]] + p.get("variants", []), location_code, language_code)
         out_rows.append({"phrase": p["phrase"], "variants": p.get("variants", [p["phrase"]]),
                          "engine_count": p["engine_count"], "times_seen": p["times_seen"],
-                         "cluster_id": p["cluster_id"], "intent": p["intent"],
+                         "cluster_id": p.get("cluster_id"), "intent": p["intent"],
+                         "tool_type": p.get("tool_type"), "seeds": p.get("seeds", [p.get("seed")]),
                          "search_volume": entry.get("search_volume"), "cpc": entry.get("cpc"),
                          "competition": entry.get("competition"), "competition_index": entry.get("competition_index")})
     ev = evaluate(out_rows)

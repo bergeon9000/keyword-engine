@@ -3,7 +3,7 @@ import csv
 import json
 from pathlib import Path
 
-CSV_FIELDS = ["phrase", "cluster_id", "intent", "engine_count", "times_seen", "google_relevance",
+CSV_FIELDS = ["phrase", "cluster_id", "intent", "tool_type", "engine_count", "times_seen", "google_relevance",
               "min_prefix_len", "best_rank", "modifier", "shape", "engines", "variants", "seed", "niche"]
 
 
@@ -91,6 +91,52 @@ def render_compare_md(run, seeds):
     for name, s in run["sources"].items():
         lines.append(f"| {name} | {s['attempted']} | {s['live']} | {s['cache']} | {s['stale']} | {s['failed']} |")
     return "\n".join(lines) + "\n"
+
+
+TOOL_CSV_FIELDS = ["phrase", "tool_type", "seeds", "engine_count", "times_seen", "google_relevance",
+                   "best_rank", "intent", "variants", "engines"]
+
+
+def render_tools_md(run, candidates, top=60):
+    lines = [f"# Tool candidates ({len(run['seeds'])} seeds)", "",
+             f"Niche `{run['niche']}` · run `{run['run_id']}` · {len(candidates)} candidates · {run['duration_s']} s", "",
+             "Searches where people want a calculator, estimator, chart or converter. Ranked by how many "
+             "engines suggest it, then how many queries surfaced it, then Google relevance. "
+             "**Not search volume** — that is the paid check.", ""]
+    if not run["validation_passed"]:
+        failed = [c["name"] for c in run["validation"] if not c["ok"]]
+        lines += [f"**Validation failed:** {', '.join(failed)}.", ""]
+    lines += ["| # | Phrase | Type | Seed(s) | Engines | Seen |", "|---|---|---|---|---|---|"]
+    for i, c in enumerate(candidates[:top], 1):
+        lines.append(f"| {i} | {_md_escape(c['phrase'])} | {c['tool_type']} | {_md_escape(', '.join(c['seeds']))} | "
+                     f"{c['engine_count']} | {c['times_seen']} |")
+    lines += ["", "## Per seed", "", "| Seed | Phrases found | Tool phrases | Strongest tool phrase |",
+              "|---|---|---|---|"]
+    for seed, n in run["counts"]["per_seed"].items():
+        best = next((c["phrase"] for c in candidates if seed in c["seeds"]), "")
+        lines.append(f"| {_md_escape(seed)} | {n['phrases']} | {n['tool_phrases']} | {_md_escape(best)} |")
+    lines += ["", "## Source health", "", "| Source | Requests | Live | Cached | Stale | Failed |",
+              "|---|---|---|---|---|---|"]
+    for name, s in run["sources"].items():
+        lines.append(f"| {name} | {s['attempted']} | {s['live']} | {s['cache']} | {s['stale']} | {s['failed']} |")
+    return "\n".join(lines) + "\n"
+
+
+def write_tools(out_dir, run, candidates):
+    out = Path(out_dir)
+    out.mkdir(parents=True, exist_ok=True)
+    with open(out / "tools.jsonl", "w", encoding="utf-8") as f:
+        for c in candidates:
+            f.write(json.dumps(c, ensure_ascii=False) + "\n")
+    with open(out / "tools.csv", "w", newline="", encoding="utf-8-sig") as f:
+        w = csv.DictWriter(f, fieldnames=TOOL_CSV_FIELDS, extrasaction="ignore")
+        w.writeheader()
+        for c in candidates:
+            w.writerow(dict(c, seeds=" | ".join(c["seeds"]), variants=" | ".join(c["variants"]),
+                            engines=" ".join(c["engines"])))
+    (out / "report.md").write_text(render_tools_md(run, candidates), encoding="utf-8")
+    _write_json(out / "run.json", run)
+    return out
 
 
 def _write_json(path, data):

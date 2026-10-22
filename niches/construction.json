@@ -1,0 +1,9 @@
+{
+  "name": "construction",
+  "region": {"hl": "en", "gl": "us", "market": "en-US", "ddg_kl": "us-en"},
+  "synonyms": ["board foot", "roofing square", "roof squares"],
+  "stackexchange_sites": ["diy"],
+  "skip_words": ["bike", "bikes", "bicycle", "cycling", "cards", "card", "tarot", "pokemon", "mtg", "yugioh",
+                 "steam", "game", "games", "minecraft", "fortnite", "roblox", "lyrics", "song", "jungle",
+                 "sand dollar", "meme", "movie", "anime", "jobs", "salary", "hiring"]
+}

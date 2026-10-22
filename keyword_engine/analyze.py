@@ -28,6 +28,45 @@ def build_queries(seed):
     return plan
 
 
+# --- tool-finder: searches where people want a calculator, estimator or chart ---
+
+TOOL_SUFFIXES = ["calculator", "estimator", "cost", "cost per square foot", "price", "chart", "formula",
+                 "weight", "coverage", "size", "how much", "how many", "per yard", "per ton"]
+TOOL_PREFIXES = ["how much", "how many", "how much does", "calculate", "estimate"]
+
+
+def build_tool_queries(seed):
+    """[(kind, query)] aimed at tool intent: the seed, seed + tool words, question/verb + seed."""
+    seed = normalize(seed)
+    plan = [("seed", seed)]
+    plan += [("tool", f"{seed} {w}") for w in TOOL_SUFFIXES]
+    plan += [("tool", f"{w} {seed}") for w in TOOL_PREFIXES]
+    return plan
+
+
+_UNITS = r"(?:yards?|tons?|feet|foot|ft|inches|inch|pounds?|lbs?|cubic|square|sq|gallons?|bags?|meters?|m3|kg)"
+_CONVERSION = re.compile(rf"\b(convert|conversion|converter)\b|\b{_UNITS}\b.*\bto\b.*\b{_UNITS}\b")
+TOOL_TYPES = [  # first match wins
+    ("chart", ["chart", "span table", "size table", "weight table"]),  # bare "table" is mostly furniture
+    ("cost", ["cost", "costs", "price", "prices", "pricing", "quote", "estimate", "estimator", "budget",
+              "how much does", "how much is", "how much are"]),
+    ("quantity", ["calculator", "calculate", "calculation", "calc", "how much", "how many", "need",
+                  "coverage", "amount", "yards of", "tons of", "bags of", "per yard", "per ton"]),
+    ("sizing", ["size", "sizes", "span", "spacing", "length", "depth", "thickness", "thick", "width", "height",
+                "how far", "how deep", "how big", "weight", "load", "formula", "slope", "pitch", "angle"]),
+]
+
+
+def tool_type(phrase):
+    """'quantity', 'cost', 'conversion', 'sizing' or 'chart' when the search wants a tool, else None."""
+    if _CONVERSION.search(phrase):
+        return "conversion"
+    for kind, words in TOOL_TYPES:
+        if any(contains_word(w, phrase) for w in words):
+            return kind
+    return None
+
+
 # --- text helpers ---
 
 def normalize(text):
@@ -269,6 +308,7 @@ def build_rows(evidence, matcher, skip_words, seed, niche):
             "modifier": modifier(p, matcher),
             "shape": shape(p, matcher),
             "intent": intent(p),
+            "tool_type": tool_type(p),
             "cluster_id": None,
         })
     rows.sort(key=rank_key, reverse=True)

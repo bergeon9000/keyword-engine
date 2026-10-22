@@ -1,0 +1,32 @@
+# Construction topics for the tool-finder (2026-10-21). One per line; edit freely.
+# Homeowner materials
+concrete
+gravel
+mulch
+topsoil
+sand
+pavers
+asphalt
+retaining wall
+# Homeowner projects
+deck
+fence
+patio
+roof replacement
+siding
+drywall
+interior paint
+exterior paint
+insulation
+flooring
+tile
+gutters
+window replacement
+stairs
+# Contractor math
+board feet
+rafter
+stair stringer
+roofing squares
+rebar
+lumber
