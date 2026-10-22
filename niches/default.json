@@ -1,0 +1,7 @@
+{
+  "name": "default",
+  "region": {"hl": "en", "gl": "us", "market": "en-US", "ddg_kl": "us-en"},
+  "synonyms": [],
+  "stackexchange_sites": [],
+  "skip_words": []
+}

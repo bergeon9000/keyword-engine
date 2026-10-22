@@ -1,0 +1,7 @@
+{
+  "name": "reef",
+  "region": {"hl": "en", "gl": "us", "market": "en-US", "ddg_kl": "us-en"},
+  "synonyms": ["reef aquarium", "saltwater tank", "saltwater aquarium", "marine aquarium"],
+  "stackexchange_sites": ["pets"],
+  "skip_words": ["tanker", "tankers", "great barrier", "vacancies", "lyrics"]
+}
