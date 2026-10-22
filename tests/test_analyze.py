@@ -1,6 +1,6 @@
-from keyword_engine.analyze import (Matcher, build_queries, cluster, cluster_key, contains_word,
-                                    drop_reason, intent, min_prefix_len, modifier, normalize, shape,
-                                    stem)
+from keyword_engine.analyze import (Evidence, Matcher, build_queries, cluster, cluster_key,
+                                    contains_word, drop_reason, intent, merge_variants, min_prefix_len,
+                                    modifier, normalize, shape, stem, variant_key)
 
 # --- Fable's July pattern tests, kept as written ---
 
@@ -123,6 +123,28 @@ def test_cluster_heads_are_top_ranked_member():
     light = next(c for c in clusters if c["key"] == "light")
     assert light["head"] == "reef tank lights" and light["size"] == 2
     assert all(r["cluster_id"] for r in rows)
+
+
+def test_variant_key_merges_order_plurals_and_filler():
+    assert variant_key("nano reef tank") == variant_key("reef tank nano")
+    assert variant_key("reef tank corals") == variant_key("corals for reef tank")
+    assert variant_key("reef tank setups") == variant_key("reef tank setup")
+    assert variant_key("reef tank with sump") == variant_key("reef tank sump")
+    assert variant_key("reef tank without sump") != variant_key("reef tank sump")
+    assert variant_key("best reef tank lights") != variant_key("reef tank lights")
+
+
+def test_merge_variants_pools_evidence():
+    a, b = Evidence("reef tank nano"), Evidence("nano reef tank")
+    a.add("google", "suffix", "reef tank n", {"rank": 3, "relevance": 600})
+    a.add("bing", "suffix", "reef tank n", {"rank": 2})
+    b.add("amazon", "pre", "nano reef tank", {"rank": 1})
+    merged = merge_variants({a.phrase: a, b.phrase: b})
+    assert list(merged) == ["reef tank nano"]  # the wording with more evidence of its own leads
+    pooled, variants = merged["reef tank nano"]
+    assert pooled.engines == {"google", "bing", "amazon"} and pooled.best_rank == 1
+    assert pooled.google_relevance == 600 and variants == ["reef tank nano", "nano reef tank"]
+    assert a.engines == {"google", "bing"}  # originals untouched
 
 
 def test_min_prefix_len():

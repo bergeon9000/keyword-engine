@@ -178,6 +178,45 @@ class Evidence:
         if engine == "google" and hit.get("relevance") is not None:
             self.google_relevance = max(self.google_relevance or 0, hit["relevance"])
 
+    def absorb(self, other):
+        self.engines |= other.engines
+        self.queries |= other.queries
+        self.kinds |= other.kinds
+        self.best_rank = min(self.best_rank, other.best_rank)
+        if other.google_relevance is not None:
+            self.google_relevance = max(self.google_relevance or 0, other.google_relevance)
+
+
+# Words Google ignores when it merges close variants ("reef tank with sump" = "reef tank sump").
+VARIANT_IGNORED = {"a", "an", "the", "for", "of", "to", "in", "on", "with", "and", "my", "your"}
+
+
+def variant_key(phrase):
+    """Same key for word-order and plural variants: 'nano reef tank' = 'reef tanks nano'."""
+    return " ".join(sorted(stem(t) for t in phrase.split() if t not in VARIANT_IGNORED)) or phrase
+
+
+def merge_variants(evidence):
+    """Pools the evidence of variant phrases. Returns {representative: (Evidence, [variants])}.
+
+    The representative is the variant with the strongest evidence of its own, so
+    the wording shown is the one people type most.
+    """
+    groups = defaultdict(list)
+    for p, e in evidence.items():
+        groups[variant_key(p)].append(e)
+    merged = {}
+    for members in groups.values():
+        members.sort(key=lambda e: (len(e.engines), len(e.queries), e.google_relevance or 0, -e.best_rank,
+                                    -len(e.phrase)), reverse=True)
+        head = members[0]
+        pooled = Evidence(head.phrase, set(head.engines), set(head.queries), set(head.kinds),
+                          head.google_relevance, head.best_rank)
+        for other in members[1:]:
+            pooled.absorb(other)
+        merged[head.phrase] = (pooled, [e.phrase for e in members])
+    return merged
+
 
 def collect(sources, engines, plan, progress=None):
     """Runs every query on every engine (one thread per engine). {phrase: Evidence}"""
@@ -206,15 +245,19 @@ def rank_key(row):
 
 
 def build_rows(evidence, matcher, skip_words, seed, niche):
-    """Filters, describes and ranks phrases. Returns (rows, Counter of drop reasons)."""
-    rows, dropped = [], Counter()
+    """Filters, merges variants, describes and ranks phrases. Returns (rows, Counter of drop reasons)."""
+    kept, dropped = {}, Counter()
     for p, e in evidence.items():
         reason = drop_reason(p, matcher, skip_words)
         if reason:
             dropped[reason] += 1
-            continue
+        else:
+            kept[p] = e
+    rows = []
+    for p, (e, variants) in merge_variants(kept).items():
         rows.append({
             "phrase": p,
+            "variants": variants,
             "seed": matcher.seed,
             "niche": niche,
             "engines": sorted(e.engines),
@@ -229,7 +272,8 @@ def build_rows(evidence, matcher, skip_words, seed, niche):
             "cluster_id": None,
         })
     rows.sort(key=rank_key, reverse=True)
-    return rows, dropped
+    dropped["merged_variant"] = len(kept) - len(rows)
+    return rows, +dropped
 
 
 def cluster(rows, matcher):

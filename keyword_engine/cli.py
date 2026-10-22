@@ -24,6 +24,39 @@ def _summary(out, run):
     print(f"\nWrote {out / 'report.md'}")
 
 
+def _volume(args):
+    from .pipeline import REPO_ROOT
+    from .volume import PROD, SANDBOX, DataForSEO, VolumeError, get_credentials, run_volume
+
+    run_dir = args.run
+    if run_dir is None:
+        runs = sorted((p for p in (REPO_ROOT / "runs").glob("*") if (p / "phrases.jsonl").exists()),
+                      key=lambda p: p.name)
+        if not runs:
+            print("No expand runs found.")
+            return 1
+        run_dir = runs[-1]
+    ledger = REPO_ROOT / "data" / ("volume_ledger.sandbox.json" if args.sandbox else "volume_ledger.json")
+    print(f"Run: {run_dir}{'  [SANDBOX: free, fake numbers]' if args.sandbox else ''}")
+    try:
+        client = None
+        if args.spend or args.sandbox or ledger.exists():
+            client = DataForSEO(*get_credentials(), base=SANDBOX if args.sandbox else PROD)
+        summary = run_volume(run_dir, ledger, spend=args.spend or args.sandbox, max_cost=args.max_cost,
+                             wait_minutes=args.wait, location_code=args.location,
+                             language_code=args.language, client=client)
+    except VolumeError as e:
+        print(f"Stopped: {e}")
+        return 1
+    if summary:
+        ev = summary["evaluation"]
+        print(f"\nRank agreement (Spearman): {ev['spearman_engine_rank_vs_volume']}; "
+              f"engine top 50 in real top 100: {ev['engine_top50_in_real_top100']}/50; "
+              f"cost ${summary['cost_usd']}; balance {summary['balance_before']} -> {summary['balance_after']}")
+        print(f"Wrote {run_dir / 'volume_report.md'}")
+    return 0
+
+
 def main(argv=None):
     try:
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -50,7 +83,18 @@ def main(argv=None):
     cp.add_argument("seeds", nargs="*", help="seeds, or use --file")
     cp.add_argument("--file", type=Path, help="text file with one seed per line")
 
+    vo = sub.add_parser("volume", help="optional paid check: real Google volume for a run (DataForSEO)")
+    vo.add_argument("run", nargs="?", type=Path, help="run folder (default: newest expand run)")
+    vo.add_argument("--spend", action="store_true", help="actually queue paid tasks (otherwise a dry run)")
+    vo.add_argument("--sandbox", action="store_true", help="use DataForSEO's free sandbox (fake numbers)")
+    vo.add_argument("--max-cost", type=float, default=0.10, help="refuse to send if the estimate is higher (USD)")
+    vo.add_argument("--wait", type=float, default=180, help="minutes to wait for queued tasks")
+    vo.add_argument("--location", type=int, default=2840, help="DataForSEO location code (2840 = US)")
+    vo.add_argument("--language", default="en")
+
     args = ap.parse_args(argv)
+    if args.mode == "volume":
+        return _volume(args)
     niche = load_niche(args.niche)
 
     if args.mode == "expand":

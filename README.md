@@ -52,7 +52,8 @@ Each run writes `runs/<YYYY-MM-DD_HHMMSS>-<seed-slug>/`.
 
 | Field | Type | Meaning |
 |---|---|---|
-| `phrase` | str | the search phrase, normalized (lowercase, tidy spacing) |
+| `phrase` | str | the search phrase, normalized (lowercase, tidy spacing); for merged variants, the wording with the most evidence |
+| `variants` | list[str] | every wording folded into this row: word order, plurals, filler words (`nano reef tank` = `reef tank nano`), whose evidence is pooled |
 | `seed`, `niche` | str | what the run was for |
 | `engines` | list[str] | which autocomplete engines suggested it |
 | `engine_count` | int | `len(engines)`, 1–5 |
@@ -117,6 +118,47 @@ value ranks last). There are no weights.
 ## What the numbers are not
 
 They are **not search volumes**. They show which phrases several engines agree people type,
-and in what order. To get real volume, check the top of a report against Google Keyword
-Planner (free, gives ranges), or later run a paid batch (DataForSEO, about $0.06 per 1,000
-keywords). See `REBUILD-PLAN.md` for the roadmap.
+and in what order. For real volume, use the optional paid step below.
+
+## Optional: real search volume (DataForSEO)
+
+```
+python -m keyword_engine volume                  # dry run: shows what it would send and cost
+python -m keyword_engine volume --sandbox        # free sandbox, fake numbers, tests the plumbing
+python -m keyword_engine volume --spend          # real: about $0.06 per task of up to 1,000 keywords
+```
+
+- **Credentials:** `DATAFORSEO_LOGIN` and `DATAFORSEO_PASSWORD`. Use the API login and password from
+  DataForSEO's API Access page, set as environment variables. On Windows the user environment is read
+  directly if this process didn't inherit them.
+- **Run:** with no run folder given, it uses the newest `expand` run.
+
+**Cost guards:**
+- Nothing paid happens without `--spend`.
+- `--max-cost` (default $0.10) refuses anything over the cap before sending.
+- Every keyword checked is kept in `data/volume_ledger.json` (gitignored) and never sent again.
+- A queued task is saved before waiting, so if `--wait` runs out, re-running the command collects it
+  for free instead of paying twice.
+
+**Outputs** (added to the run folder):
+- `volume.jsonl`: per phrase, `search_volume`, `cpc`, `competition`, `competition_index`, plus the
+  engine fields.
+- `volume.json`: cost, balance before and after, and the evaluation.
+- `volume_report.md`: how well the free ranking matched real volume.
+
+Google Ads merges close variants (plurals, word order), so such pairs can share one number.
+
+First real check (reef tank, 2026-10-21, 869 phrases, $0.06):
+- **Median monthly searches rose with every extra engine:** 20 for phrases suggested by 1 engine,
+  then 50, 110, 140, and 390 for phrases suggested by all 5.
+- **The engine's top 50:** 28 were in the real top 100, and only 1 had no volume.
+- **Overall rank agreement:** 0.28 (Spearman).
+
+After v0.3 merged close variants (re-checked for free against the ledger, 784 phrases):
+- **Rank agreement:** 0.35.
+- **Top 50 in the real top 100:** 30.
+- **Examples:** `nano reef tank` moved from 183/728 to 96, and `reef tank corals` from 208 to 42.
+- **Known gap:** different word forms (`setting up a reef tank` vs `reef tank setup`) still stay apart.
+
+The volume step looks up each row's `variants` and takes the highest known volume, because Google
+reports one merged number for them.

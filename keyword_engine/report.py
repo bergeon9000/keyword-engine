@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 
 CSV_FIELDS = ["phrase", "cluster_id", "intent", "engine_count", "times_seen", "google_relevance",
-              "min_prefix_len", "best_rank", "modifier", "shape", "engines", "seed", "niche"]
+              "min_prefix_len", "best_rank", "modifier", "shape", "engines", "variants", "seed", "niche"]
 
 
 def validate(run, phrases, min_sources=3):
@@ -69,7 +69,8 @@ def render_expand_md(run, phrases, clusters, questions, top_clusters=20, top_phr
         lines += ["", "First errors:"] + [f"- {n}: {_md_escape(e)[:160]}" for n, e in errors[:8]]
     if run["counts"]["dropped"]:
         dropped = ", ".join(f"{k} {v}" for k, v in sorted(run["counts"]["dropped"].items()))
-        lines += ["", f"Dropped phrases: {dropped}."]
+        lines += ["", f"Dropped or merged phrases: {dropped}. (merged_variant = folded into another "
+                      "wording of the same search, listed in its `variants`.)"]
     return "\n".join(lines) + "\n"
 
 
@@ -106,7 +107,7 @@ def write_expand(out_dir, run, phrases, clusters, questions):
         w = csv.DictWriter(f, fieldnames=CSV_FIELDS, extrasaction="ignore")
         w.writeheader()
         for p in phrases:
-            w.writerow(dict(p, engines=" ".join(p["engines"])))
+            w.writerow(dict(p, engines=" ".join(p["engines"]), variants=" | ".join(p["variants"])))
     _write_json(out / "clusters.json", clusters)
     _write_json(out / "questions.json", questions)
     (out / "report.md").write_text(render_expand_md(run, phrases, clusters, questions), encoding="utf-8")
