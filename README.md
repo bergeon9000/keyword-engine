@@ -6,11 +6,14 @@ by evidence you can check. No made-up scores.
 - **`expand`**: one seed → ranked phrases, grouped into article-sized clusters, plus the
   most-viewed Stack Exchange questions.
 - **`compare`**: many seeds (counties, species, product ideas) → ranked against each other.
+- **Article picks and briefs** come out at the end of every `expand`, `tools`, `volume` and
+  `shortlist` run: which articles to write next, and a brief for each (see below).
 
 ```
 python -m keyword_engine expand "reef tank" --niche reef
 python -m keyword_engine compare "reef tank" "blenny" "planted tank"
 python -m keyword_engine compare --file seeds.txt
+python -m keyword_engine articles [run]      # free: re-rank picks and rewrite briefs for a run
 ```
 
 A first run of `expand` takes about 30–40 seconds (about 300 requests). Re-runs come from the
@@ -38,6 +41,10 @@ Validation needs at least 3 autocomplete engines to have answered.
 `niches/<name>.json` sets the region, synonyms (other phrasings that count as on topic),
 Stack Exchange sites, and skip words (phrases containing them are dropped). `default.json`
 fills in anything a niche leaves out. Add a niche by copying `reef.json`.
+
+`site_catalog` (optional, relative to this repo) points at the site's page list, so article picks
+can link to its calculators and skip topics it already covers. `construction` uses
+`../the-plumb-bob/catalog.json`, which that site's `build.py` writes.
 
 ## Output contract
 
@@ -114,6 +121,47 @@ code 1 when validation fails. The checks are:
 value ranks last). There are no weights.
 
 `run.json` and `report.md` work as in `expand`.
+
+### articles (end of every expand, tools, volume and shortlist run)
+
+No LLM and no blended score. It uses whatever the run has: engine agreement after a free run,
+real volume after `volume`, and KD plus the live top 10 for any phrase the ledgers have checked.
+
+1. **Every phrase gets a role, with a reason:** calculator page (owned by a site page, or a
+   tool idea), needs prices, local, off topic (niche skip words), low volume (under 100/mo),
+   or article.
+2. **One article per search.** These merge into one article:
+   - Google's merged close variants (same volume, CPC and 12-month curve);
+   - phrases about the same calculator, facet (sizes, weight, pallet, bags, coverage) and main
+     topic word, where one phrase's other words are a subset of the other's;
+   - phrases whose top 10s share 4+ URLs.
+3. **Mostly calculators in the top 10** (6+) sends the topic to that calculator page's FAQ.
+4. **Ranking:** articles are ranked like `compare`, by `avg_rank` over volume, KD and
+   `serp_edge` (weak results minus big sites). Without volume it uses engine count, times seen
+   and Google relevance. **Wave 1** links to a page in the site catalog; wave 2 doesn't.
+
+**`articles.json`**:
+- `picks`: each with `head`, `phrases`, `slug`, `page_type` (reference chart / answer guide /
+  how-to / guide), `links_to`, `wave`, `volume` (sum over its distinct searches), `head_volume`,
+  `cpc`, `kd`, `season`, `serp`, `serp_edge`, `avg_rank`
+- `calculator_faq`
+- `roles`: every left-out phrase with its reason
+- `has_volume`, `has_catalog`, `signals`
+
+**`articles.md`**: wave 1, wave 2, calculator FAQ, tool ideas, and what was left out. Short
+enough for a phone.
+
+**`briefs/<slug>.md`**: one per top pick (wave 1 when there's a catalog; 10 by default). Each
+starts with a header block (`target`, `variants`, `page_type`, `links_to`, `volume`, `kd`,
+`season`, `status`), then:
+- who ranks now;
+- the searches to answer;
+- matching Stack Exchange questions;
+- related phrases;
+- an empty facts-to-source checklist;
+- a "don't" list.
+
+A brief whose `status` isn't `candidate` is never overwritten.
 
 ## What the numbers are not
 

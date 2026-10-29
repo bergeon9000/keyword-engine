@@ -3,6 +3,7 @@ import argparse
 import sys
 from pathlib import Path
 
+from .articles import refresh as refresh_articles
 from .pipeline import load_niche, run_compare, run_expand, run_tools
 from .sources import SUGGEST_ENGINES
 
@@ -53,6 +54,7 @@ def _shortlist(args):
         return 1
     if result:
         print(f"Checked {result['rows']} phrases for ${result['cost_usd']}. Wrote {run_dir / 'shortlist_report.md'}")
+        refresh_articles(run_dir)
     return 0
 
 
@@ -82,7 +84,18 @@ def _volume(args):
               f"engine top 50 in real top 100: {ev['engine_top50_in_real_top100']}/50; "
               f"cost ${summary['cost_usd']}; balance {summary['balance_before']} -> {summary['balance_after']}")
         print(f"Wrote {run_dir / 'volume_report.md'}")
+        refresh_articles(run_dir)
     return 0
+
+
+def _articles(args):
+    from .pipeline import REPO_ROOT
+
+    run_dir = args.run or _newest_run(REPO_ROOT, ("phrases.jsonl", "tools.jsonl"))
+    if run_dir is None:
+        print("No expand or tools runs found.")
+        return 1
+    return 0 if refresh_articles(run_dir, briefs=args.briefs) is not None else 1
 
 
 def main(argv=None):
@@ -136,7 +149,13 @@ def main(argv=None):
     sl.add_argument("--location", type=int, default=2840)
     sl.add_argument("--language", default="en")
 
+    ar = sub.add_parser("articles", help="free: re-rank article picks and rewrite briefs for a run")
+    ar.add_argument("run", nargs="?", type=Path, help="run folder (default: newest expand or tools run)")
+    ar.add_argument("--briefs", type=int, default=10, help="how many briefs to write")
+
     args = ap.parse_args(argv)
+    if args.mode == "articles":
+        return _articles(args)
     if args.mode == "volume":
         return _volume(args)
     if args.mode == "shortlist":

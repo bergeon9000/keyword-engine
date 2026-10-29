@@ -375,3 +375,21 @@ def rank_questions(questions, matcher, limit=25):
         seen.add(q["link"])
         out.append(dict(q, on_topic=matcher.span(normalize(q["title"])) is not None))
     return out[:limit]
+
+
+def avg_ranks(rows, signals):
+    """Adds row["avg_rank"]: mean of per-signal ranks (1 = best, ties share, missing = last)."""
+    n = len(rows)
+    for key, higher_is_better in signals:
+        values = [r[key] for r in rows if r[key] is not None]
+        for r in rows:
+            if r[key] is None:
+                r.setdefault("_ranks", []).append(n)
+            else:
+                better = sum(1 for v in values if (v > r[key] if higher_is_better else v < r[key]))
+                r.setdefault("_ranks", []).append(better + 1)
+    for r in rows:
+        r["avg_rank"] = round(sum(r["_ranks"]) / len(r["_ranks"]), 2)
+        del r["_ranks"]
+    rows.sort(key=lambda r: r["avg_rank"])
+    return rows

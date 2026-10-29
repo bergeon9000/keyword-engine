@@ -5,8 +5,9 @@ from datetime import datetime
 from pathlib import Path
 
 from . import __version__
-from .analyze import (Matcher, build_queries, build_rows, build_tool_queries, cluster, collect,
+from .analyze import (Matcher, avg_ranks, build_queries, build_rows, build_tool_queries, cluster, collect,
                       min_prefix_len, normalize, rank_key, rank_questions, variant_key)
+from .articles import refresh as refresh_articles
 from .cache import Cache, slug
 from .report import validate, write_compare, write_expand, write_tools
 from .sources import SUGGEST_ENGINES, HttpClient, SourceLog, Sources
@@ -81,6 +82,7 @@ def run_expand(seed, niche, engines=SUGGEST_ENGINES, cache_dir=None, out_root=No
     run["validation_passed"] = all(c["ok"] for c in run["validation"])
     out = Path(out_root or REPO_ROOT / "runs") / run["run_id"]
     write_expand(out, run, phrases, clusters, questions)
+    refresh_articles(out)
     return out, run
 
 
@@ -158,25 +160,8 @@ def run_tools(seeds, niche, engines=SUGGEST_ENGINES, cache_dir=None, out_root=No
     run["validation_passed"] = all(c["ok"] for c in run["validation"])
     out = Path(out_root or REPO_ROOT / "runs") / run["run_id"]
     write_tools(out, run, candidates)
+    refresh_articles(out)
     return out, run
-
-
-def _avg_ranks(rows, signals):
-    """Adds row["avg_rank"]: mean of per-signal ranks (1 = best, ties share, missing = last)."""
-    n = len(rows)
-    for key, higher_is_better in signals:
-        values = [r[key] for r in rows if r[key] is not None]
-        for r in rows:
-            if r[key] is None:
-                r.setdefault("_ranks", []).append(n)
-            else:
-                better = sum(1 for v in values if (v > r[key] if higher_is_better else v < r[key]))
-                r.setdefault("_ranks", []).append(better + 1)
-    for r in rows:
-        r["avg_rank"] = round(sum(r["_ranks"]) / len(r["_ranks"]), 2)
-        del r["_ranks"]
-    rows.sort(key=lambda r: r["avg_rank"])
-    return rows
 
 
 def run_compare(seeds, niche, cache_dir=None, out_root=None, refresh=False, progress=None, http=None):
@@ -202,7 +187,7 @@ def run_compare(seeds, niche, cache_dir=None, out_root=None, refresh=False, prog
         rows[-1]["wiki_views"] = (rows[-1]["wikipedia"] or {}).get("avg_monthly_views")
         if progress:
             progress("compare", i, len(seeds))
-    _avg_ranks(rows, [("suggest_phrases", True), ("seed_prefix_len", False), ("wiki_views", True)])
+    avg_ranks(rows, [("suggest_phrases", True), ("seed_prefix_len", False), ("wiki_views", True)])
     for r in rows:
         del r["wiki_views"]
     run = {
