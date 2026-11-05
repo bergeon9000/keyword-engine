@@ -58,6 +58,50 @@ def _shortlist(args):
     return 0
 
 
+def _questions(args):
+    from datetime import datetime
+
+    from .articles import load_catalog
+    from .pipeline import REPO_ROOT, load_niche
+    from .questions import check, recover, report, write_report
+    from .shortlist import Store
+    from .volume import PROD, SANDBOX, DataForSEO, VolumeError, get_credentials
+
+    tag = ".sandbox" if args.sandbox else ""
+    data = REPO_ROOT / "data"
+    kd_path, serp_path = data / f"kd_ledger{tag}.json", data / f"serp_ledger{tag}.json"
+    phrases = list(args.phrases)
+    if args.file:
+        phrases += [l.strip() for l in args.file.read_text(encoding="utf-8").splitlines()
+                    if l.strip() and not l.startswith("#")]
+    if not phrases and not args.recover:
+        print("Give phrases, --file, or --recover.")
+        return 1
+    cost = None
+    try:
+        client = DataForSEO(*get_credentials(), base=SANDBOX if args.sandbox else PROD) \
+            if (args.spend or args.sandbox or args.recover) else None
+        before = client.balance() if client else None
+        if args.recover:
+            recover(client, serp_path, days=args.days)
+        if phrases:
+            cost = check(phrases, kd_path, serp_path, spend=args.spend or args.sandbox, max_cost=args.max_cost,
+                         paa_depth=args.click_depth, kd=not args.no_kd, wait_minutes=args.wait,
+                         loc=args.location, lang=args.language, client=client)
+        if client:
+            print(f"Balance {before} -> {client.balance()}")
+    except VolumeError as e:
+        print(f"Stopped: {e}")
+        return 1
+    cat_path = load_niche(args.niche).get("site_catalog")
+    catalog = load_catalog((REPO_ROOT / cat_path).resolve() if cat_path else None)
+    every = [k.split("|")[0] for k in Store(serp_path).items]
+    out = REPO_ROOT / "runs" / f"{datetime.now():%Y-%m-%d_%H%M%S}-questions"
+    path = write_report(out, report(list(dict.fromkeys(phrases + every)), serp_path, kd_path, catalog), cost)
+    print(f"Wrote {path}")
+    return 0
+
+
 def _volume(args):
     from .pipeline import REPO_ROOT
     from .volume import PROD, SANDBOX, DataForSEO, VolumeError, get_credentials, run_volume
@@ -149,6 +193,23 @@ def main(argv=None):
     sl.add_argument("--location", type=int, default=2840)
     sl.add_argument("--language", default="en")
 
+    qs = sub.add_parser("questions", help="People Also Ask by page: free recovery and/or a paid phrase-list check")
+    qs.add_argument("phrases", nargs="*", help="phrases to check, or use --file")
+    qs.add_argument("--file", type=Path, help="text file with one phrase per line")
+    qs.add_argument("--recover", action="store_true",
+                    help="free: add questions from SERP tasks DataForSEO still holds (posted in the last --days)")
+    qs.add_argument("--days", type=int, default=30)
+    qs.add_argument("--spend", action="store_true", help="actually run the paid checks (otherwise a dry run)")
+    qs.add_argument("--sandbox", action="store_true", help="use DataForSEO's free sandbox (fake numbers)")
+    qs.add_argument("--max-cost", type=float, default=0.10)
+    qs.add_argument("--click-depth", type=int, default=2, choices=range(0, 5),
+                    help="People Also Ask clicks per search (more questions, $0.00015 each)")
+    qs.add_argument("--no-kd", action="store_true", help="skip keyword difficulty")
+    qs.add_argument("--wait", type=float, default=60, help="minutes to wait for queued checks")
+    qs.add_argument("--niche", default="construction", help="niche whose site catalog groups the report")
+    qs.add_argument("--location", type=int, default=2840)
+    qs.add_argument("--language", default="en")
+
     ar = sub.add_parser("articles", help="free: re-rank article picks and rewrite briefs for a run")
     ar.add_argument("run", nargs="?", type=Path, help="run folder (default: newest expand or tools run)")
     ar.add_argument("--briefs", type=int, default=10, help="how many briefs to write")
@@ -160,6 +221,8 @@ def main(argv=None):
         return _volume(args)
     if args.mode == "shortlist":
         return _shortlist(args)
+    if args.mode == "questions":
+        return _questions(args)
     niche = load_niche(args.niche)
 
     if args.mode == "expand":

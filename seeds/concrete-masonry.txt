@@ -1,0 +1,35 @@
+# Concrete and masonry family for the tool-finder (2026-10-22). One per line; edit freely.
+# Concrete itself
+concrete
+cement
+ready mix
+quikrete
+concrete slab
+concrete driveway
+concrete patio
+concrete sidewalk
+concrete steps
+concrete footing
+footing
+sonotube
+post hole
+fence post
+concrete column
+concrete wall
+foundation
+self leveling concrete
+concrete countertop
+# Reinforcement
+rebar
+wire mesh
+# Masonry
+mortar
+grout
+concrete block
+cinder block
+brick
+stone veneer
+stucco
+pavers
+paver base
+retaining wall block

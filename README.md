@@ -210,3 +210,29 @@ After v0.3 merged close variants (re-checked for free against the ledger, 784 ph
 
 The volume step looks up each row's `variants` and takes the highest known volume, because Google
 reports one merged number for them.
+
+## Optional: People Also Ask questions (DataForSEO)
+
+```
+python -m keyword_engine questions --recover                     # free: questions from SERPs bought in the last 30 days
+python -m keyword_engine questions --file seeds/paa.txt          # dry run: what it would send and cost
+python -m keyword_engine questions --file seeds/paa.txt --spend  # real: top 10 + questions + KD per phrase
+```
+
+The shortlist's top-10 tasks now keep Google's People Also Ask questions (`paa`) and related searches (`related`)
+in `data/serp_ledger.json`, read from DataForSEO's *advanced* result format; the regular format drops them.
+
+- **Recover (free).** DataForSEO keeps task results for 30 days, and `task_get` and `serp/id_list` are free. So
+  `--recover` adds questions to ledger entries bought before they were kept. Each entry keeps its original date.
+  Past 30 days the questions are gone; the report marks those phrases "not stored".
+- **Check (paid).** For a phrase list: a top 10 with the People Also Ask box clicked open `--click-depth` times
+  (default 2; each click is $0.00015 and adds questions), plus KD unless `--no-kd`. About $0.0014 per phrase with
+  KD. The same guards as `volume`: `--spend`, `--max-cost`, ledgers, and queued tasks saved before waiting.
+- **Output:** `runs/<time>-questions/questions_paa.md` and `.json`. Every ledger phrase's questions, grouped under
+  the site page it belongs to: the catalog article that targets it, else the calculator its words match. Briefs
+  list the questions too, marked "(Google People Also Ask)".
+
+First run (2026-11-02):
+- **Recovered free:** 69 SERPs from Oct 22–23; 56 had a People Also Ask box.
+- **Checked:** 31 new phrases (built articles with no SERP yet, the next picks, three calculators) at depth 2, with
+  KD, for $0.0427. Balance went from $0.746 to $0.704.

@@ -415,8 +415,10 @@ def render_brief(a, questions=(), subtopics=()):
     body += ["", "## Searches this page should answer", ""]
     body += [f"- {p}" for p in a["phrases"]]
     asked = [p for p in a["phrases"] if p.startswith(QUESTION_STARTS)]
-    if asked or questions:
+    paa = [q for q in s.get("paa") or [] if q.lower().rstrip("?") not in asked]
+    if asked or questions or paa:
         body += ["", "## Questions people ask", ""] + [f"- {p}" for p in asked]
+        body += [f"- {q} (Google People Also Ask)" for q in paa]
         body += [f"- [{q['title']}]({q['link']}) ({_n(q.get('views'))} views, {q.get('site')})" for q in questions]
     if subtopics:
         body += ["", "## Related phrases (candidate sections)", ""] + [f"- {p}" for p in subtopics]

@@ -19,6 +19,7 @@ from .volume import MAX_KEYWORDS, VolumeError
 
 KD_TASK_COST, KD_PER_KEYWORD = 0.012, 0.00012  # DataForSEO Labs, per task + per keyword (2026-10)
 SERP_COST = 0.0006  # Google organic, standard queue, per SERP of 10 results (2026-10)
+PAA_CLICK_COST = 0.00015  # per People Also Ask click (people_also_ask_click_depth); refunded when not made
 SERP_PER_POST = 100
 LABS_KD = "/dataforseo_labs/google/bulk_keyword_difficulty/live"
 SERP = "/serp/google/organic"
@@ -77,9 +78,12 @@ def fetch_kd(client, keywords, loc, lang):
     return {i["keyword"].lower(): i.get("keyword_difficulty") for i in items}, data.get("cost", 0)
 
 
-def post_serps(client, keywords, loc, lang):
-    """Queues one top-10 SERP task per keyword (up to 100 per call). Returns ([(keyword, id)], cost)."""
-    body = [{"keyword": k, "location_code": loc, "language_code": lang, "depth": 10} for k in keywords]
+def post_serps(client, keywords, loc, lang, paa_depth=0):
+    """Queues one top-10 SERP task per keyword (up to 100 per call). Returns ([(keyword, id)], cost).
+
+    paa_depth (1-4) has Google's People Also Ask box clicked open that many times, which adds questions."""
+    body = [dict({"keyword": k, "location_code": loc, "language_code": lang, "depth": 10},
+                 **({"people_also_ask_click_depth": paa_depth} if paa_depth else {})) for k in keywords]
     data = client._call("POST", SERP + "/task_post", body)
     out = []
     for kw, task in zip(keywords, data["tasks"]):
@@ -90,8 +94,10 @@ def post_serps(client, keywords, loc, lang):
 
 
 def get_serp(client, task_id):
-    """The finished SERP result, or None while queued. Free."""
-    data = client._call("GET", f"{SERP}/task_get/regular/{task_id}")
+    """The finished SERP result, or None while queued. Free, for 30 days after posting.
+
+    The advanced format: the regular one drops the People Also Ask questions and related searches."""
+    data = client._call("GET", f"{SERP}/task_get/advanced/{task_id}")
     task = data["tasks"][0]
     if task["status_code"] in (40601, 40602):
         return None
@@ -117,7 +123,22 @@ def summarize_serp(result):
         "big_sites": sum(1 for d in domains if d in BIG_SITES),
         "weak_results": sum(1 for d in domains if d in WEAK_SITES),
         "features": sorted(set(result.get("item_types") or []) - {"organic"}),
+        "paa": paa_questions(result),
+        "related": [r for i in result.get("items") or [] if i.get("type") == "related_searches"
+                    for r in i.get("items") or [] if isinstance(r, str)],
     }
+
+
+def paa_questions(result):
+    """The People Also Ask questions in a SERP, in Google's order, each once."""
+    out = []
+    for item in result.get("items") or []:
+        if item.get("type") == "people_also_ask":
+            for el in item.get("items") or []:
+                title = (el.get("title") or "").strip()
+                if title and title not in out:
+                    out.append(title)
+    return out
 
 
 # --- the step ---
